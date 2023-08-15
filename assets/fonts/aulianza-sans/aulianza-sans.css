@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Aulianza Sans 300';
+    src: url('AulianzaSans-300.woff2') format('woff2'), url('AulianzaSans-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aulianza Sans 1000';
+    src: url('AulianzaSans-1000.woff2') format('woff2'), url('AulianzaSans-1000.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aulianza Sans 900';
+    src: url('AulianzaSans-900.woff2') format('woff2'), url('AulianzaSans-900.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aulianza Sans 100';
+    src: url('AulianzaSans-100.woff2') format('woff2'), url('AulianzaSans-100.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aulianza Sans 500';
+    src: url('AulianzaSans-500.woff2') format('woff2'), url('AulianzaSans-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aulianza Sans 700';
+    src: url('AulianzaSans-700.woff2') format('woff2'), url('AulianzaSans-700.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+fieldset {
+	min-width: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.well {
+    min-height: 20px;
+    padding: 0 20px 15px 20px;
+    margin-bottom: 20px;
+    background-color: #e0dede1a;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.well-legend {
+    display: block;
+    font-family: "Aulianza Sans 300" !important;
+    font-size: 15px;
+    width: auto;
+    padding: 2px 10px 2px 8px;
+    line-height: inherit;
+	color: #333;
+	margin-bottom: 10px;
+    background-color: #fcfcfc;
+}
+
+/* 3.1 Page Loader */
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*background: #E6E8EC;*/
+    z-index: 9999;
+}
+#loader.fade {
+    display: none;
+}
+#loader.fade.in,
+#loader.fade.show {
+    display: block;
+}
