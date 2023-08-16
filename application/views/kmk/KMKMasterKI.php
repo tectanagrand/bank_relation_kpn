@@ -1554,7 +1554,7 @@ foreach ($DtDepartment as $values) {
                         UUID: UUID,
                         COMPANY: $('#COMPANY').val(),
                         BUSINESSUNIT: $('#BUSINESSUNIT').val(),
-                        BANK: BANKCODE,
+                        BANK: $('#BANK').val(),
                         CREDIT_TYPE: $('#CREDIT_TYPE').val(),
                         CTYPE   : $('#CTYPE').val(),
                         PK_NUMBER: $('#PK_NUMBER').val(),
@@ -1782,6 +1782,7 @@ foreach ($DtDepartment as $values) {
                 CURRENCY : $('#ICURRENCY').val(),
                 IDC : $('#IIDC').val(),
                 PURPOSE : $('#IPURPOSE').val(),
+                DOCDATE : $('#DOCDATE').val(),
                 // PAYBACK_PERIOD:$('#IPAYBACK_PERIOD').val(),
                 BANK_PORTION:$('#IBANK_PORTION').val(),
                 ADD_REMARKS:$('#IADD_REMARKS').val(),
@@ -2230,9 +2231,9 @@ foreach ($DtDepartment as $values) {
                                 });
                                 if (value.ISDEFAULT == "1") {
                                     DValue = CValue;
-                                    html += "<option value='" + CValue + "'>" + value.FCNAME + '  </option>';
+                                    html += "<option value='" + value.ID + "'>" + value.FCNAME + '  </option>';
                                 } else {
-                                    html += "<option value='" + CValue + "'>" + value.FCNAME + '</option>';
+                                    html += "<option value='" + value.ID + "'>" + value.FCNAME + '</option>';
                                 }
 
                             });

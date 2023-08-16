@@ -1429,11 +1429,13 @@ class KMKModel extends BaseModel {
         try {
             $result = FALSE;
             $searchHeader = $this->db->select("UUID, TO_CHAR(DOCDATE, 'mm/dd/yyyy') AS DOCDATE")->from('FUNDS_DETAIL_KI')->where(array('UUID' => $param['UUID'], 'ISACTIVE' => 1))->get()->row() ;
+            $inputdocdate = explode('-', $param['DOCDATE']) ; 
+            // var_dump($inputdocdate) ;
             $lastTrq = $this->db->query("SELECT MAX(COUNTER_TR) AS COUNTER_TR FROM FUNDS_DETAIL_KI_TRANCHE WHERE UUID = '{$param['UUID']}'")->row();
             $lastMSTq = $this->db->query("SELECT COUNTER FROM FUNDS_MASTER WHERE UUID = '{$param['UUID']}'")->row();
             $masterKIq = $this->db->select('COMPANY, BANK')->from('FUNDS_MASTER')->where('UUID', $param['UUID'])->get()->row();
             $docdate = explode('/',$searchHeader->DOCDATE) ;
-            $year_create = substr($docdate[2], -2);
+            $year_create = substr($docdate[2] ? $docdate[2] : $inputdocdate[0], -2);
             $LIMIT_TRANCHE      = intval(preg_replace("/[^\d\.\-]/","",$param['LIMIT_TRANCHE']));
             $BANK_PORTION       = intval(preg_replace("/[^\d\.\-]/","",$param['BANK_PORTION']));
             $dt = [

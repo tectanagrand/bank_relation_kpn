@@ -2168,3 +2168,1852 @@ ERROR - 2023-08-16 16:43:54 --> Severity: Notice --> Trying to get property of n
 ERROR - 2023-08-16 16:43:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 5498
 ERROR - 2023-08-16 16:43:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 5538
 ERROR - 2023-08-16 16:43:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 5548
+ERROR - 2023-08-16 11:59:01 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 11:59:01 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 11:59:01 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 11:59:01 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 11:59:13 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 157
+ERROR - 2023-08-16 11:59:13 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 11:59:13 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 11:59:13 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 11:59:13 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 11:59:13 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 11:59:13 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 16:59:14 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1781
+ERROR - 2023-08-16 16:59:14 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1788
+ERROR - 2023-08-16 16:59:14 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1795
+ERROR - 2023-08-16 16:59:14 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1802
+ERROR - 2023-08-16 16:59:14 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1809
+ERROR - 2023-08-16 16:59:14 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1816
+ERROR - 2023-08-16 16:59:14 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1823
+ERROR - 2023-08-16 16:59:49 --> Severity: Notice --> Undefined index: AMOUNT_PER_MONTH C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 682
+ERROR - 2023-08-16 16:59:49 --> Severity: Notice --> Undefined index: BANK C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 688
+ERROR - 2023-08-16 16:59:49 --> Severity: Notice --> Undefined index: IDC_STATUS C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 692
+ERROR - 2023-08-16 16:59:49 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 710
+ERROR - 2023-08-16 16:59:49 --> Severity: Notice --> Undefined index: BANK C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 719
+ERROR - 2023-08-16 16:59:49 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 719
+ERROR - 2023-08-16 16:59:49 --> Severity: Notice --> Undefined variable: vendorID C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 732
+ERROR - 2023-08-16 12:00:02 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:00:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1781
+ERROR - 2023-08-16 17:00:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1788
+ERROR - 2023-08-16 17:00:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1795
+ERROR - 2023-08-16 17:00:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1802
+ERROR - 2023-08-16 17:00:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1809
+ERROR - 2023-08-16 17:00:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1816
+ERROR - 2023-08-16 17:00:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1823
+ERROR - 2023-08-16 12:00:44 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 157
+ERROR - 2023-08-16 12:00:44 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:00:44 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:00:44 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:00:44 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:00:44 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:00:48 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:00:48 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:00:48 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:00:49 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 12:01:05 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 157
+ERROR - 2023-08-16 12:01:05 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:01:05 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:01:05 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:01:05 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:01:05 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:01:06 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:01:06 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1781
+ERROR - 2023-08-16 17:01:06 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1788
+ERROR - 2023-08-16 17:01:06 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1795
+ERROR - 2023-08-16 17:01:06 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1802
+ERROR - 2023-08-16 17:01:06 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1809
+ERROR - 2023-08-16 17:01:06 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1816
+ERROR - 2023-08-16 17:01:06 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1823
+ERROR - 2023-08-16 17:02:54 --> Severity: Notice --> Undefined index: AMOUNT_PER_MONTH C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 682
+ERROR - 2023-08-16 17:02:54 --> Severity: Notice --> Undefined index: BANK C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 688
+ERROR - 2023-08-16 17:02:54 --> Severity: Notice --> Undefined index: IDC_STATUS C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 692
+ERROR - 2023-08-16 17:02:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 710
+ERROR - 2023-08-16 17:02:54 --> Severity: Notice --> Undefined index: BANK C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 719
+ERROR - 2023-08-16 17:02:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 719
+ERROR - 2023-08-16 17:02:54 --> Severity: Notice --> Undefined variable: vendorID C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 732
+ERROR - 2023-08-16 12:03:09 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:03:11 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1781
+ERROR - 2023-08-16 17:03:11 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1788
+ERROR - 2023-08-16 17:03:11 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1795
+ERROR - 2023-08-16 17:03:11 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1802
+ERROR - 2023-08-16 17:03:11 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1809
+ERROR - 2023-08-16 17:03:11 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1816
+ERROR - 2023-08-16 17:03:11 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1823
+ERROR - 2023-08-16 12:06:55 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 157
+ERROR - 2023-08-16 12:06:55 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:06:55 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:06:55 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:06:55 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:06:55 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:06:56 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:06:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1781
+ERROR - 2023-08-16 17:06:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1788
+ERROR - 2023-08-16 17:06:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1795
+ERROR - 2023-08-16 17:06:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1802
+ERROR - 2023-08-16 17:06:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1809
+ERROR - 2023-08-16 17:06:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1816
+ERROR - 2023-08-16 17:06:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1823
+ERROR - 2023-08-16 12:08:48 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 157
+ERROR - 2023-08-16 12:08:48 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:08:48 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:08:48 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:08:48 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:08:48 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:08:49 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:08:50 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1782
+ERROR - 2023-08-16 17:08:50 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1789
+ERROR - 2023-08-16 17:08:50 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1796
+ERROR - 2023-08-16 17:08:50 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1803
+ERROR - 2023-08-16 17:08:50 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1810
+ERROR - 2023-08-16 17:08:50 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1817
+ERROR - 2023-08-16 17:08:50 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1824
+ERROR - 2023-08-16 17:09:41 --> Severity: Notice --> Undefined index: AMOUNT_PER_MONTH C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 682
+ERROR - 2023-08-16 17:09:41 --> Severity: Notice --> Undefined index: IDC_STATUS C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 692
+ERROR - 2023-08-16 17:09:41 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 710
+ERROR - 2023-08-16 17:09:41 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 719
+ERROR - 2023-08-16 17:09:41 --> Severity: Notice --> Undefined variable: vendorID C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 732
+ERROR - 2023-08-16 12:09:56 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:09:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1782
+ERROR - 2023-08-16 17:09:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1789
+ERROR - 2023-08-16 17:09:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1796
+ERROR - 2023-08-16 17:09:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1803
+ERROR - 2023-08-16 17:09:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1810
+ERROR - 2023-08-16 17:09:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1817
+ERROR - 2023-08-16 17:09:57 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1824
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1437
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1438
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Undefined index: BANK_PORTION C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1440
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1444
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1458
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1459
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1464
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1465
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1474
+ERROR - 2023-08-16 17:14:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1478
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1437
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1438
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Undefined index: BANK_PORTION C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1440
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1444
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1458
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1459
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1464
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1465
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1474
+ERROR - 2023-08-16 17:16:03 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1478
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1437
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1438
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Undefined index: BANK_PORTION C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1440
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1444
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1458
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1459
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1464
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1465
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1474
+ERROR - 2023-08-16 17:16:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1478
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1437
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1438
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Undefined index: BANK_PORTION C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1440
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1444
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1458
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Undefined index: INTEREST_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1459
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_FROM C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1464
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Undefined index: INSTALLMENT_PERIOD_TO C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1465
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1474
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1478
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1506
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1737
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 5500
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 5540
+ERROR - 2023-08-16 17:16:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 5550
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: RATE C:\xampp\htdocs\bankrelation\application\controllers\Cashflow\KmkController.php 433
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: RATE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1245
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: ADDENDUM_DATE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1247
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: CURRENCY C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1260
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: LOAN_ACCOUNT_NUMBER C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1263
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: ADD_REMARK C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1269
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: PAYMENT_BANK_ACCOUNT C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1274
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined variable: num C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1277
+ERROR - 2023-08-16 17:16:29 --> Severity: Notice --> Undefined index: OPT C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1283
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 612
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 612
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 615
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 615
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 631
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 631
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 634
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 634
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:30 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:31 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:39 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 696
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 796
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 797
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 798
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 17:16:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\models\ReportGenModel.php 799
+ERROR - 2023-08-16 12:16:44 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:16:44 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:16:44 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:16:45 --> 404 Page Not Found: Assets/plugins
