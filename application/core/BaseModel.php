@@ -152,13 +152,55 @@ class BaseModel extends CI_Model {
 
     public function generateKIContractNumber ($param) {
         /* $param contains :
-        [
+        [   
+            YEAR_CREATE => Tahun DOCDATE,
             BANK => Nama Bank,
             CURRENCY => Menentukan IF dan IL,
             IDC => 0 untuk Non dan 1 untuk IDC,
-            COMPANY ,
-            
+            COUNTER_TR => Counter tranche ke-x,
+            RUNNUM_MST => Running Number KI,
+            COMPANY, 
         ]
         */
+        // var_dump($param); exit; 
+        $codeTr = range('A','Z');
+        $year = $param['YEAR_CREATE'] ;
+        $lastTR = intval($param['COUNTER_TR']) ;
+        $lastMST = sprintf("%03d", intval($param['RUNNUM_MST']));
+        $Headerq = "SELECT CASE
+                                WHEN C.COMPANY_SUBGROUP = 'UPSTREAM' THEN '01'
+                                WHEN C.COMPANY_SUBGROUP = 'DOWNSTREAM' THEN '02'
+                                WHEN C.COMPANY_SUBGROUP = 'CEMENT' THEN '03'
+                                WHEN C.COMPANY_SUBGROUP = 'PROPERTY' THEN '04'
+                                ELSE '05'
+                            END
+                                AS C_GROUP,
+                            CE.EXTSYSCOMPANYCODE AS COMP_CODE
+                        FROM COMPANY C INNER JOIN COMPANY_EXTSYS CE ON CE.COMPANY = C.ID
+                        WHERE CE.EXTSYSTEM = 'SAPHANA' AND C.ID = '{$param['COMPANY']}'" ;
+        
+        $Header = $this->db->query($Headerq)->row() ;
+        $cgroup = $Header->C_GROUP != null ? $Header->C_GROUP : 'YY' ;
+        $compcode = $Header->COMP_CODE != null ? $Header->COMP_CODE : 'ZZ' ;
+
+        if($param['CURRENCY'] == 'IDR') {
+            $credType = 'IL' ;
+        }
+        else if($param['CURRENCY'] == 'USD') {
+            $credType = 'IF' ;
+        }
+        else if($param['CURRENCY'] == 'US$') {
+            $credType = 'IF' ;
+        }
+        else {
+            $credType = 'AA' ;
+        }
+        $idc = $param['IDC'] == 'WITH_IDC' ? 1 : 0 ;
+
+        $bankBICq = $this->db->select('BIC')->from('SUPPLIER')->where('ID', $param['BANK'])->get()->row();
+        $bic = $bankBICq->BIC != null ? $bankBICq->BIC : 'XXXX' ;
+
+        return $year.$cgroup.$compcode.$credType.$bic.$codeTr[$lastTR-1].$idc.$lastMST;
+
     }
 }

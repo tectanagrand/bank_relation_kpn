@@ -695,7 +695,27 @@ class KMKModel extends BaseModel {
                 'ISACTIVE' => 1,
                 'IS_ACC' => 0
             ];
+            //when KI
+            // var_dump($dt);
+            if($param['CREDIT_TYPE'] == 'KI') {
+                //Update Counter FUNDSMASTER
+                $lastCounter = $this->db->query("SELECT COUNTER FROM FUNDS_MASTER ORDER BY COUNTER DESC NULLS LAST")->row();
+                // var_dump($this->db->last_query());exit;
+                $numExist = true ;
+                $num =  intval($lastCounter->COUNTER) + 1 ;
+                // var_dump($num); exit ;
 
+                while($numExist) {
+                    $checkCounter = $this->db->select('COUNTER')->from('FUNDS_MASTER')->where('COUNTER', $num)->get()->row();
+                    if($checkCounter->COUNTER == null) {
+                        $numExist = false ;
+                    } 
+                    else {
+                        $num++ ;
+                    }
+                }
+                $dt['COUNTER'] = $num ;
+            }
             $getBank         = $this->db->get_where('BANK',['FCCODE' => $param['BANK'] ])->row()->FCNAME;
             if($getBank == "MANDIRI"){
                 $vendorID = "2ea62b32-1203-47ec-bdcd-bd7795370a10";
@@ -1254,12 +1274,12 @@ class KMKModel extends BaseModel {
                 'PAYMENT_BANK_ACC' => $param['PAYMENT_BANK_ACCOUNT']
             ];
             // var_dump($dt); exit;
+            $result1 = $this->db->set('COUNTER', $num)->where('UUID', $param['UUID'])->update('FUNDS_MASTER');
             $result1 = $this->db->set('CREATED_AT', "SYSDATE", false)
                         ->set("FIRST_DATE_INTEREST_PAYMENT","TO_DATE('" . $param['FIRST_DATE_INTEREST_PAYMENT'] . "','yyyy-mm-dd')", false)
                         ->set("DOCDATE","TO_DATE('" . $param['DOCDATE'] . "','yyyy-mm-dd')", false)
                         ->set("ADDENDUM_DATE","TO_DATE('" . $ADDENDUM_DATE . "','yyyy-mm-dd')", false)
                         ->set("MATURITY_DATE","TO_DATE('" . $param['MATURITY_DATE'] . "','yyyy-mm-dd')", false);
-
             if($param['OPT'] == 1){
                 $cekDup = $this->db->get_where('FUNDS_DETAIL_KI',['UUID' => $param['UUID'],'SUB_CREDIT_TYPE' => $param['SUB_CREDIT_TYPE']])->row();
                 if ($cekDup == NULL) {
@@ -1408,6 +1428,12 @@ class KMKModel extends BaseModel {
         $this->db->trans_begin();
         try {
             $result = FALSE;
+            $searchHeader = $this->db->select("UUID, TO_CHAR(DOCDATE, 'mm/dd/yyyy') AS DOCDATE")->from('FUNDS_DETAIL_KI')->where(array('UUID' => $param['UUID'], 'ISACTIVE' => 1))->get()->row() ;
+            $lastTrq = $this->db->query("SELECT MAX(COUNTER_TR) AS COUNTER_TR FROM FUNDS_DETAIL_KI_TRANCHE WHERE UUID = '{$param['UUID']}'")->row();
+            $lastMSTq = $this->db->query("SELECT COUNTER FROM FUNDS_MASTER WHERE UUID = '{$param['UUID']}'")->row();
+            $masterKIq = $this->db->select('COMPANY, BANK')->from('FUNDS_MASTER')->where('UUID', $param['UUID'])->get()->row();
+            $docdate = explode('/',$searchHeader->DOCDATE) ;
+            $year_create = substr($docdate[2], -2);
             $LIMIT_TRANCHE      = intval(preg_replace("/[^\d\.\-]/","",$param['LIMIT_TRANCHE']));
             $BANK_PORTION       = intval(preg_replace("/[^\d\.\-]/","",$param['BANK_PORTION']));
             $dt = [
@@ -1422,7 +1448,8 @@ class KMKModel extends BaseModel {
                 'CURRENCY' => $param['CURRENCY'],
                 'EXCHANGE_RATE' => $param['EXCHANGE_RATE'],
                 'IDC' => $param['IDC'],
-                'PURPOSE' => $param['PURPOSE']
+                'PURPOSE' => $param['PURPOSE'],
+                'COUNTER_TR'=> intval($lastTrq->COUNTER_TR) + 1
             ];
             $result1 = $this->db->set('CREATED_AT', "SYSDATE", false)
                         ->set("EFFECTIVE_DATE","TO_DATE('" . $param['EFFECTIVE_DATE'] . "','yyyy-mm-dd')", false)
@@ -1438,7 +1465,6 @@ class KMKModel extends BaseModel {
             
             $cekDup1 = $this->db->get_where('FUNDS_DETAIL_KI_TRANCHE',['UUID' => $param['UUID'],'ID' => $param['ID']])->row();
             //  var_dump($cekDup);exit();
-            $searchHeader = $this->db->select('*')->from('FUNDS_DETAIL_KI')->where(array('UUID' => $param['UUID'], 'ISACTIVE' => 1))->get()->row() ;
             // var_dump($searchHeader); exit;
             if ($cekDup1 == NULL) {
                 $dt['CREATED_BY'] = $param['USERNAME'];
@@ -1455,79 +1481,25 @@ class KMKModel extends BaseModel {
                 $checkCompany = $this->db->query("SELECT C.COMPANY_SUBGROUP,CE.EXTSYSCOMPANYCODE FROM COMPANY C INNER JOIN COMPANY_EXTSYS CE ON CE.COMPANY = C.ID WHERE C.ID = '".$param['COMPANY']."' AND CE.EXTSYSTEM = 'SAPHANA'")->row();
 
                     #start generate number contract
-                    if($checkCompany->COMPANY_SUBGROUP === "UPSTREAM"){
-                        $comp = "01".$checkCompany->EXTSYSCOMPANYCODE;
-                    }
-                    if($checkCompany->COMPANY_SUBGROUP === "DOWNSTREAM"){
-                        $comp = "02".$checkCompany->EXTSYSCOMPANYCODE;
-                    }
-                    if($checkCompany->COMPANY_SUBGROUP === "CEMENT"){
-                        $comp = "03".$checkCompany->EXTSYSCOMPANYCODE;
-                    }
-                    if($checkCompany->COMPANY_SUBGROUP === "PROPERTY"){
-                        $comp = "04".$checkCompany->EXTSYSCOMPANYCODE;
-                    }
-                    if($checkCompany->COMPANY_SUBGROUP == '' || $checkCompany == null){
-                        $comp = "05".$checkCompany->EXTSYSCOMPANYCODE;
-                    }
-                    
-                    $qgenid = $this->db->query("SELECT NVL(COUNTER,0)+1 AS GENID FROM FUNDS_MASTER WHERE COUNTER IS NOT NULL ORDER BY ID DESC FETCH FIRST 1 ROWS ONLY")->row()->GENID;
-                    $qgenid =  sprintf('%03d', $qgenid);
-
-                    //
-                    if(($param['SUB_CREDIT_TYPE'] == 'FINANCING' && $param['CURRENCY'] == 'IDR') || ($param['SUB_CREDIT_TYPE'] == 'REFINANCING' && $param['CURRENCY'] == 'IDR')){
-                        $code = 'IL';
-                    }
-
-                    if(($param['SUB_CREDIT_TYPE'] == 'FINANCING' && $param['CURRENCY'] == 'USD') || ($param['SUB_CREDIT_TYPE'] == 'REFINANCING' && $param['CURRENCY'] == 'USD')){
-                        $code = 'IF';
-                    }
-
-                    if(($param['SUB_CREDIT_TYPE'] == 'FINANCING' && $param['CURRENCY'] == 'US$') || ($param['SUB_CREDIT_TYPE'] == 'REFINANCING' && $param['CURRENCY'] == 'US$')){
-                        $code = 'IF';
-                    }
-
-                    $getMaster       = $this->db->get_where('FUNDS_MASTER',['UUID' => $param['UUID']])->row();
-                    if($getMaster->SUB_CREDIT_TYPE == 'WA'){
-                        $getDetailMaster = $this->db->get_where('FUNDS_DETAIL_WA',['UUID' => $param['UUID']])->row();
-                    }
-                    if($getMaster->SUB_CREDIT_TYPE == 'RK' || $getMaster->SUB_CREDIT_TYPE == 'TL' || $getMaster->SUB_CREDIT_TYPE == 'BD'){
-                        $getDetailMaster = $this->db->get_where('FUNDS_DETAIL_RK',['UUID' => $param['UUID']])->row();
-                    }
-                    $codeTranche = "B";
-                    if($getMaster->SUB_CREDIT_TYPE == 'KI'){
-                        $getDetailMaster = $this->db->get_where('FUNDS_DETAIL_KI',['UUID' => $param['UUID']])->row();
-                        if($getMaster->IDC_STATUS == 'WITH_IDC'){
-                            $jenisIDC = "1";
-                        }else{
-                            $jenisIDC = "0";
-                        }
-                        $codeTranche = "A";
-                    }
-                    
-                    $getBank         = $this->db->get_where('BANK',['FCCODE' => $getMaster->BANK ])->row();
-                    $BIC = $getBank->BIC;
-                    
-                    $genid  = Date('y').$comp.$code.$BIC.$codeTranche.$jenisIDC.$qgenid;
-
-                    $cekDup = $this->db->get_where('FUNDS_DETAIL_KI_TRANCHE',['CONTRACT_NUMBER' => $genid])->row();
-                    #tinggal get BIC 
-                    if($cekDup == NULL){
-                        $genid = $genid;
-                    }else{
-                        $qgenid = $this->db->query("SELECT NVL(COUNTER,0)+1 AS GENID FROM FUNDS_MASTER WHERE COUNTER IS NOT NULL ORDER BY ID DESC FETCH FIRST 1 ROWS ONLY")->row()->GENID;
-                        $qgenid =  sprintf('%03d', $qgenid);
-                        $genid  = Date('y').$comp.$code.$BIC.$codeTranche.$jenisIDC.$qgenid;
-                    }
+                    //prepare -> YEAR_CREATE, BANK, CURRENCY, IDC, COUNTER_TR, RUNNUM_MST, COMPANY
+                    $paramConNum = [
+                        'YEAR_CREATE' => $year_create,
+                        'BANK' => $masterKIq->BANK,
+                        'CURRENCY' => $param['CURRENCY'],
+                        'IDC' => $param['IDC'],
+                        'COUNTER_TR' => $dt['COUNTER_TR'],
+                        'RUNNUM_MST' => $lastMSTq->COUNTER,
+                        'COMPANY' => $masterKIq->COMPANY
+                    ] ;
+                    $genid = $this->generateKIContractNumber($paramConNum);
+                    // var_dump($genid); exit;
+                    //update current tr counter_tr
                     $this->db->set('CONTRACT_NUMBER',$genid);
                     $this->db->where('UUID',$param['UUID']);
                     $this->db->where('TRANCHE_NUMBER',$param['TRANCHE_NUMBER']);
+                    //update counter di fundsmaster
                     $upd = $this->db->update('FUNDS_DETAIL_KI_TRANCHE');
-                    if($upd){
-                        $this->db->set('COUNTER',$qgenid);
-                        $this->db->where('UUID',$param['UUID']);
-                        $this->db->update('FUNDS_MASTER');
-                    }
+                    
 
                     if($searchHeader->IS_ACC == "1" /*&& $param['IS_ADDENDUM'] == 1*/){
                         $this->db->set('IS_ACC',0);
@@ -2165,7 +2137,7 @@ class KMKModel extends BaseModel {
             //        FR.ADD_REMARK FROM FUNDS_MASTER L LEFT JOIN FUNDS_DETAIL_KI FR ON FR.UUID = L.UUID LEFT JOIN BUSINESSUNIT BU ON BU.ID = L.BUNIT LEFT JOIN BANK B ON B.FCCODE = L.BANK WHERE L.UUID = ?";
 
             $SQL = "SELECT L.*,  L.UUID as LID,  BU.ID AS BUID, BU.FCNAME AS BUFCNAME,L.SUB_CREDIT_TYPE AS SUB_CREDIT_TYPEMASTER,FR.SUB_CREDIT_TYPE as SCT, TO_CHAR (FR.DOCDATE, 'yyyy-mm-dd') AS DOCDATE_DETAIL,
-            B.FCNAME AS GETBANK, L.KI_TYPE AS CTYPE,
+            B.FCNAME AS GETBANK, B.ID AS BANKID, L.KI_TYPE AS CTYPE,
                 FR.PROVISI_TYPE,
                 FM.PK_NUMBER AS REF_CONTRACT,
                 FR.TOBANK,

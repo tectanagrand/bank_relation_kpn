@@ -1804,6 +1804,7 @@ class URLController extends CI_Controller {
     }
 
     public function KMKMasterKI() {
+        // ini_set('display_errors', 'On');
         $this->load->model(array("MasterData/General/CompanyModel", "CompanyModel",'KMKModel'));
         $this->datasend['formid'] = '107';
         $this->datasend['ACCESS'] = $this->PermissionModel->GetAccessMenu($this->datasend['ROLEACCESS'], $this->datasend['formid']);
