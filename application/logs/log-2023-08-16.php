@@ -4017,3 +4017,58 @@ ERROR - 2023-08-16 12:16:44 --> Severity: Notice --> Trying to get property of n
 ERROR - 2023-08-16 12:16:44 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
 ERROR - 2023-08-16 12:16:44 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
 ERROR - 2023-08-16 12:16:45 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 12:23:06 --> 404 Page Not Found: URLController/ForecastKMKKI
+ERROR - 2023-08-16 12:23:11 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:23:11 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:23:11 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:23:12 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 12:31:52 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 157
+ERROR - 2023-08-16 12:31:52 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:31:52 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 214
+ERROR - 2023-08-16 12:31:52 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:31:52 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:31:52 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:31:57 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:31:58 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1783
+ERROR - 2023-08-16 17:31:58 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1790
+ERROR - 2023-08-16 17:31:58 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1797
+ERROR - 2023-08-16 17:31:58 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1804
+ERROR - 2023-08-16 17:31:58 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1811
+ERROR - 2023-08-16 17:31:58 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1818
+ERROR - 2023-08-16 17:31:58 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1825
+ERROR - 2023-08-16 12:40:52 --> 404 Page Not Found: URLController/ForecastKMKKI
+ERROR - 2023-08-16 12:41:03 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:41:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1783
+ERROR - 2023-08-16 17:41:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1790
+ERROR - 2023-08-16 17:41:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1797
+ERROR - 2023-08-16 17:41:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1804
+ERROR - 2023-08-16 17:41:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1811
+ERROR - 2023-08-16 17:41:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1818
+ERROR - 2023-08-16 17:41:03 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1825
+ERROR - 2023-08-16 12:41:05 --> 404 Page Not Found: URLController/PaymentReq
+ERROR - 2023-08-16 12:41:16 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 17:41:16 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1783
+ERROR - 2023-08-16 17:41:16 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1790
+ERROR - 2023-08-16 17:41:16 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1797
+ERROR - 2023-08-16 17:41:16 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1804
+ERROR - 2023-08-16 17:41:16 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1811
+ERROR - 2023-08-16 17:41:16 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1818
+ERROR - 2023-08-16 17:41:16 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1825
+ERROR - 2023-08-16 12:48:47 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:48:55 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:48:56 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:48:58 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:49:13 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:49:16 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:49:18 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:50:09 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:50:20 --> Severity: error --> Exception: Call to undefined method PermissionModel::GetAccessReviewUpload() C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 23
+ERROR - 2023-08-16 12:50:54 --> Severity: Notice --> Undefined property: stdClass::$QTY_PROD C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 33
+ERROR - 2023-08-16 12:50:54 --> Severity: Notice --> Undefined property: stdClass::$CPO C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 34
+ERROR - 2023-08-16 12:50:54 --> Severity: Notice --> Undefined property: stdClass::$BJR C:\xampp\htdocs\bankrelation\application\controllers\URLController.php 35
+ERROR - 2023-08-16 12:50:55 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 12:51:09 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 666
+ERROR - 2023-08-16 12:51:09 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 721
+ERROR - 2023-08-16 12:51:09 --> Severity: Notice --> Undefined variable: bankKI C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterKI.php 763
+ERROR - 2023-08-16 12:51:09 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-16 12:55:08 --> 404 Page Not Found: Assets/plugins

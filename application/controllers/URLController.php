@@ -2510,8 +2510,8 @@ class URLController extends CI_Controller {
         $this->load->view('template', $this->datasend);
     }
 
-    public function PaymentRequest() {
-        $this->datasend['formid'] = '118';
+    public function ForecastKMKKI() {
+        $this->datasend['formid'] = '125';
         $this->datasend['ACCESS'] = $this->PermissionModel->GetAccessMenu($this->datasend['ROLEACCESS'], $this->datasend['formid']);
         if ($this->datasend['ACCESS']['VIEWS'] != 1) {
             redirect('/');
@@ -2525,6 +2525,24 @@ class URLController extends CI_Controller {
 
         $this->datasend['sidebar'] = 'sidebar_view';
         $this->datasend['content'] = 'kmk/PaymentRequest';
+        $this->load->view('template', $this->datasend);
+    }
+
+    public function PaymentReq() {
+        $this->datasend['formid'] = '126';
+        $this->datasend['ACCESS'] = $this->PermissionModel->GetAccessMenu($this->datasend['ROLEACCESS'], $this->datasend['formid']);
+        if ($this->datasend['ACCESS']['VIEWS'] != 1) {
+            redirect('/');
+        }
+        // $this->datasend['DtLeasing'] = [];
+        $this->datasend['Menu'] = $this->PermissionModel->GetMenu($this->datasend['ROLEACCESS']);
+        $this->load->model('MasterData/General/CompanyModel');
+        $this->datasend['DtCompany'] = $this->CompanyModel->GetDataActive();
+        // $this->datasend['DtDepartment'] = $this->PermissionModel->GetDtDepart($this->datasend['SESSION']->FCCODE);
+        $this->datasend['DtCurrency'] = $this->PermissionModel->BMCodeDetail('000001');
+
+        $this->datasend['sidebar'] = 'sidebar_view';
+        $this->datasend['content'] = 'kmk/PaymentReqDataHist';
         $this->load->view('template', $this->datasend);
     }
 

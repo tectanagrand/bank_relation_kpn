@@ -304,7 +304,7 @@ class PayReqKMKKIModel extends BaseModel {
             $year = $datetim->format('Y');
             $date = $datetim->format('Y-n-j');
             $datein = $datetim->format('n/j/Y');
-            $pay_id = $param['PK_NUMBER'].'$'.$param['CONTRACT_NUMBER'].'$'.$date;
+            $pay_id = $param['PK_NUMBER'].'$'.$param['CONTRACT_NUMBER'].'$'.$date.'$FORECAST';
             // var_dump($pay_id); exit;
                 $SQL = "SELECT IS_PAYMENT, GID, PERIOD_MONTH, PERIOD_YEAR, UUID, PK_NUMBER, C_INST FROM FUNDSPAYMENT WHERE CONTRACT_NUMBER = '".$param['CONTRACT_NUMBER']."' AND ID = '".$param['ID']."'";
                 $Cek = $this->db->query($SQL)->row();
@@ -457,4 +457,550 @@ class PayReqKMKKIModel extends BaseModel {
         }
         return $result ;
     } 
+    // 1.4
+    public function ShowPaymentDataHistRequest($param) {
+        $q = "SELECT fp.contract_number,
+                        fp.pk_number,
+                        c.companycode,
+                        fp.PAY_ID,
+                        fp.CREDIT_TYPE,
+                        fp.PERIOD_MONTH || '-' || fp.PERIOD_YEAR AS PERIOD,
+                        cf.total_bayar AS AMOUNT,
+                        cf.currency,
+                        fp.filename,
+                        fp.billing_value,
+                        TO_CHAR(fp.END_PERIOD, 'mm/dd/yyyy') AS DATE_PAY
+                FROM fundspayment fp
+                        LEFT JOIN company c ON fp.company = c.id
+                        LEFT JOIN cf_transaction cf ON cf.DOCNUMBER = fp.PAY_ID
+                WHERE is_payment = '1'" ;
+        if($param['COMPANY'] != '0') {
+            $q .= "AND C.COMPANYCODE = '".$param['COMPANY']."'" ;
+        }
+        if($param['CREDIT_TYPE'] != '0') {
+            $q .= "AND CREDIT_TYPE = '".$param['CREDIT_TYPE']."'" ;
+        }
+        if($param['PERIOD'] != null) {
+            $period = explode('-', $param['PERIOD']);
+            $q .= "AND PERIOD_MONTH = '".$period[0]."' AND PERIOD_YEAR = '".$period[1]."'" ;
+        }
+        $result = $this->db->query($q)->result() ;
+        return $result ;
+    }
+
+    public function UploadPaymentBillKMKKI($param, $Location) {
+        // var_dump($param); exit;
+        $DOCNUMBER = $param['DOCNUMBER'] ;
+        $sepDocNum = explode('$',$DOCNUMBER);
+        array_pop($sepDocNum);
+        array_push($sepDocNum, 'ACTUAL');
+        $newDocNum = implode('$', $sepDocNum);
+        $BILLVAL = intval(preg_replace("/[^\d\.\-]/","",$param['BILVAL']));
+        // var_dump($newDocNum); exit;
+        // var_dump(ROOT);exit;
+        try {
+            $this->db->trans_begin();
+            
+            $config['upload_path'] = "/var/www/cashflow/assets/file/";
+            $config['allowed_types'] = 'pdf|docx|doc|xls|xlsx';
+            $config['overwrite'] = TRUE;
+            $config['max_size'] = 1024;
+
+            $this->load->library('upload');
+            $this->upload->initialize($config);
+            $uploadfile = $this->upload->do_upload('userfile') ;
+            $media = $this->upload->data();
+
+            if(!$uploadfile) {
+                throw new Exception($this->upload->display_errors());
+            }
+
+            $filename = $media['file_name'];
+
+            $updateattachment = $this->db->set(['FILENAME' => $filename])
+                                ->set('DATE_FILENAME', 'SYSDATE', false)
+                                ->set('BILLING_VALUE', $BILLVAL)
+                                ->where('PAY_ID', $DOCNUMBER)
+                                ->update('FUNDSPAYMENT') ;
+            // var_dump($this->db->last_query()); exit ;
+
+            if(!$updateattachment) {
+                throw new Exception('Error') ;
+            }
+            else {
+                $getDetails = $this->db->query(
+                    "SELECT * FROM
+                        ( SELECT FM.COMPANY,
+                           FM.BUNIT,
+                           FM.PK_NUMBER,
+                           FM.CREDIT_TYPE,
+                           FM.SUB_CREDIT_TYPE,
+                           FM.BANK,
+                           CASE
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FRK.CONTRACT_NUMBER
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FRK.CONTRACT_NUMBER
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FRK.CONTRACT_NUMBER
+                            WHEN FM.SUB_CREDIT_TYPE = 'WA' THEN FWA.CONTRACT_NUMBER
+                            ELSE FKI.CONTRACT_NUMBER
+                           END AS CONTRACT_NUMBER,
+                           CASE
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FRK.CURRENCY
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FRK.CURRENCY
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FRK.CURRENCY
+                            WHEN FM.SUB_CREDIT_TYPE = 'WA' THEN FWA.CURRENCY
+                            ELSE FKI.CURRENCY
+                           END AS CURRENCY
+                      FROM FUNDS_MASTER FM
+                           LEFT JOIN FUNDS_DETAIL_KI_TRANCHE FKI
+                              ON FKI.UUID = FM.UUID AND FKI.ISACTIVE = 1
+                           LEFT JOIN FUNDS_DETAIL_RK FRK
+                              ON FRK.UUID = FM.UUID AND FRK.ISACTIVE = 1
+                           LEFT JOIN FUNDS_DETAIL_WA FWA
+                              ON FWA.UUID = FM.UUID AND FWA.ISACTIVE = 1
+                     WHERE fm.isactive = '1') A WHERE CONTRACT_NUMBER = '".$sepDocNum[1]."'"
+                )->row();
+                $id = $this->uuid->v4();
+                    // var_dump($this->db->last_query());exit;
+                $cf = [
+                        "DEPARTMENT" => 'BANK-RELATION',
+                        "COMPANY" => $getDetails->COMPANY,
+                        "BUSINESSUNIT" => $getDetails->BUNIT,
+                        "DOCNUMBER" => $newDocNum,
+                        "DOCTYPE" => 'KI_ACTUAL',
+                        "VENDOR" => $getDetails->BANK,
+                        "CURRENCY" => $getDetails->CURRENCY,
+                        "EXTSYS" => 'SAPHANA',
+                        "VAT" => "",
+                        "RATE" => 1,
+                        "REMARK" => "Billing Payment KI",
+                        "AMOUNT_INCLUDE_VAT" => $BILLVAL,
+                        "TOTAL_BAYAR" => $BILLVAL,
+                        "AMOUNT_PPH" => 0,
+                        "FCEDIT" => $param['USERNAME'],
+                        "FCIP" => $Location
+                    ];   
+                $resultcf = $this->db->set('LASTUPDATE', "SYSDATE", false)
+                ->set('DOCDATE', "TO_DATE('".$param['DATE_PAY']."','mm/dd/yyyy')", false)
+                ->set('DUEDATE', "TO_DATE('".$param['DATE_PAY']."','mm/dd/yyyy')", false)
+                ->set('LASTTIME', "TO_CHAR(SYSDATE, 'HH24:MI')", false);
+                $cf["ID"]   = $id;
+                $cf["ISACTIVE"] = "TRUE";
+                $cf["FCENTRY"] = $param['USERNAME'];
+                $resultcf = $resultcf->set($cf)->insert($this->CF_TRANSACTION);
+            }
+            if($resultcf) {
+                $this->db->trans_commit();
+                $result = [
+                    'STATUS' => TRUE,
+                    'MESSAGE' => "SUCCESS Upload File Attachment"
+                ] ;
+            }
+        } catch (Exception $ex) {
+            $this->db->trans_rollback();
+            $result = [
+                'STATUS' => FALSE,
+                'MESSAGE' => $ex->getMessage()
+            ] ;
+        }
+        $this->db->close();
+        return $result ;
+    }
+    // ^^^
+    //Update 1.5
+        public function ShowDataForecast ($param) {
+            $q = "SELECT *
+                    FROM (SELECT FM.UUID,
+                                C.COMPANYCODE,
+                                C.ID AS COMPANY,
+                                CASE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA'
+                                    THEN
+                                    FDW.CONTRACT_NUMBER
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP'
+                                    THEN
+                                    FDW.CONTRACT_NUMBER
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR'
+                                    THEN
+                                    FDW.CONTRACT_NUMBER
+                                    WHEN FM.SUB_CREDIT_TYPE = 'BD'
+                                    THEN
+                                    FDR.CONTRACT_NUMBER
+                                    WHEN FM.SUB_CREDIT_TYPE = 'RK'
+                                    THEN
+                                    FDR.CONTRACT_NUMBER
+                                    WHEN FM.SUB_CREDIT_TYPE = 'TL'
+                                    THEN
+                                    FDR.CONTRACT_NUMBER
+                                    ELSE
+                                    FDK.CONTRACT_NUMBER
+                                END
+                                    AS CONTRACT_NUMBER,
+                                FM.PK_NUMBER,
+                                FM.CREDIT_TYPE,
+                                -- FM.SUB_CREDIT_TYPE,
+                                CASE
+                                    WHEN FDW.SUB_CREDIT_TYPE IS NOT NULL
+                                    THEN
+                                    FDW.SUB_CREDIT_TYPE
+                                    ELSE
+                                    FM.SUB_CREDIT_TYPE
+                                END
+                                    AS SUB_CREDIT_TYPE,
+                                CASE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.DOCDATE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.DOCDATE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.DOCDATE
+                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.DOCDATE
+                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.DOCDATE
+                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.DOCDATE
+                                    ELSE FDK.DOCDATE
+                                END
+                                    AS DOCDATE,
+                                CASE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.INTEREST
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.INTEREST
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.INTEREST
+                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.INTEREST
+                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.INTEREST
+                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.INTEREST
+                                    ELSE FDK.INTEREST
+                                END
+                                    AS INTEREST_RATE,
+                                CASE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.CURRENCY
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.CURRENCY
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.CURRENCY
+                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.CURRENCY
+                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.CURRENCY
+                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.CURRENCY
+                                    ELSE FDK.CURRENCY
+                                END
+                                    AS CURRENCY,
+                                CASE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA'
+                                    THEN
+                                    FDW.AMOUNT_LIMIT
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP'
+                                    THEN
+                                    FDW.AMOUNT_LIMIT
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR'
+                                    THEN
+                                    FDW.AMOUNT_LIMIT
+                                    WHEN FM.SUB_CREDIT_TYPE = 'BD'
+                                    THEN
+                                    FDR.AMOUNT_LIMIT
+                                    WHEN FM.SUB_CREDIT_TYPE = 'RK'
+                                    THEN
+                                    FDR.AMOUNT_LIMIT
+                                    WHEN FM.SUB_CREDIT_TYPE = 'TL'
+                                    THEN
+                                    FDR.AMOUNT_LIMIT
+                                    ELSE
+                                    FDK.AMOUNT_LIMIT
+                                END
+                                    AS AMOUNT_LIMIT,
+                                CASE
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.TOTALWD
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.TOTALWD
+                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.TOTALWD
+                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.TOTALWD
+                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.TOTALWD
+                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.TOTALWD
+                                    ELSE FDK.TOTALWD
+                                END
+                                    AS TOTALWD,
+                                COALESCE(FP.INSTALLMENT, 0) AS INSTALLMENT,
+                                COALESCE(FP.IDC_INSTALLMENT,0) AS IDC_INSTALLMENT,
+                                COALESCE(FP.INTEREST, 0) AS INTEREST,
+                                COALESCE(FP.IDC_INTEREST,0) AS IDC_INTEREST,
+                                FP.DATE_FORECAST,
+                                FP.PERIOD_MONTH AS MONTH,
+                                FP.PERIOD_YEAR AS YEAR,
+                                FP.IS_PAYMENT,
+                                FP.ID
+                            FROM FUNDS_MASTER FM
+                                LEFT JOIN COMPANY C ON C.ID = FM.COMPANY
+                                LEFT JOIN BANK B ON B.FCCODE = FM.BANK
+                                LEFT JOIN
+                                (SELECT FA.UUID,
+                                        FA.SUB_CREDIT_TYPE,
+                                        TO_CHAR (FA.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
+                                        FA.INTEREST,
+                                        FA.CURRENCY,
+                                        FA.AMOUNT_LIMIT,
+                                        FA.CONTRACT_NUMBER,
+                                        FW.TOTALWD
+                                    FROM FUNDS_DETAIL_WA FA
+                                        LEFT JOIN
+                                        (SELECT *
+                                            FROM (  SELECT UUID, SUM (AMOUNT) TOTALWD, WD_TYPE
+                                                    FROM FUNDS_WITHDRAW
+                                                    WHERE STATUS = '1'
+                                                GROUP BY UUID, WD_TYPE)) FW
+                                            ON (    FA.UUID = FW.UUID
+                                                AND FW.WD_TYPE = FA.SUB_CREDIT_TYPE)
+                                WHERE     FA.IS_ACC = '1'
+                                        AND FA.ISACTIVE = '1'
+                                        AND FW.TOTALWD > 0) FDW
+                                    ON FDW.UUID = FM.UUID
+                                LEFT JOIN
+                                (SELECT DISTINCT
+                                        FR.UUID,
+                                        FR.SUB_CREDIT_TYPE,
+                                        TO_CHAR (FR.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
+                                        FR.INTEREST,
+                                        FR.CURRENCY,
+                                        FR.AMOUNT_LIMIT,
+                                        FR.CONTRACT_NUMBER,
+                                        FW.TOTALWD
+                                    FROM FUNDS_DETAIL_RK FR
+                                        LEFT JOIN (  SELECT UUID, SUM (AMOUNT) TOTALWD, WD_TYPE
+                                                        FROM FUNDS_WITHDRAW
+                                                    WHERE STATUS = '1'
+                                                    GROUP BY UUID, WD_TYPE) FW
+                                            ON (    FR.UUID = FW.UUID
+                                                AND FW.WD_TYPE = FR.SUB_CREDIT_TYPE)
+                                WHERE     FR.IS_ACC = '1'
+                                        AND FR.ISACTIVE = '1'
+                                        AND FW.TOTALWD > 0) FDR
+                                    ON FDR.UUID = FM.UUID
+                                LEFT JOIN
+                                (SELECT FR.UUID,
+                                        FM.CREDIT_TYPE,
+                                        TO_CHAR (FR.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
+                                        FR.INTEREST,
+                                        FDR.CURRENCY,
+                                        FDR.AMOUNT_LIMIT,
+                                        FDR.CONTRACT_NUMBER,
+                                        FW.TOTALWD
+                                    FROM FUNDS_DETAIL_KI FR
+                                        LEFT JOIN
+                                        (SELECT UUID,
+                                                LIMIT_TRANCHE AMOUNT_LIMIT,
+                                                CONTRACT_NUMBER AS CONTRACT_NUMBER,
+                                                TRANCHE_NUMBER,
+                                                CURRENCY
+                                            FROM FUNDS_DETAIL_KI_TRANCHE
+                                        WHERE     ISACTIVE = '1'
+                                                AND IS_ACC = '1'
+                                                AND IS_COMPLETE IS NULL) FDR
+                                            ON FR.UUID = FDR.UUID
+                                        LEFT JOIN
+                                        (  SELECT UUID, SUM (DDOWN_AMT) TOTALWD, TRANCHE_NUMBER
+                                            FROM FUNDS_WD_KI_TRANCHE
+                                            WHERE STATUS = '1'
+                                        GROUP BY UUID, TRANCHE_NUMBER) FW
+                                            ON (    FR.UUID = FW.UUID
+                                                AND FDR.TRANCHE_NUMBER = FW.TRANCHE_NUMBER)
+                                        LEFT JOIN (SELECT UUID, CREDIT_TYPE
+                                                    FROM FUNDS_MASTER
+                                                    WHERE ISACTIVE = '1' AND IS_ACC = '1') FM
+                                            ON FM.UUID = FR.UUID
+                                WHERE     FR.IS_ACC = '1'
+                                        AND FR.ISACTIVE = '1'
+                                        AND FW.TOTALWD > 0) FDK
+                                    ON FDK.UUID = FM.UUID
+                                LEFT JOIN
+                                (  SELECT 
+                                        FP.ID,
+                                        FP.INSTALLMENT,
+                                        FP.IDC_INSTALLMENT,
+                                        FP.INTEREST,
+                                        FP.IDC_INTEREST,
+                                        FP.IS_PAYMENT,
+                                        FP.CONTRACT_NUMBER,
+                                        TO_CHAR (START_PERIOD, 'YYYY-MM-DD') AS START_PERIOD_C,
+                                        TO_CHAR (END_PERIOD, 'YYYY-MM-DD') AS END_PERIOD_C,
+                                        TO_CHAR (PAYMENT_DATE, 'MM/DD/YYYY') AS PAYMENT_DATE_C,
+                                        TO_CHAR (END_PERIOD, 'MM-DD-YYYY') AS DATE_FORECAST,
+                                        FPC.CURRENTACCOUNTINGYEAR,
+                                        FPC.CURRENTACCOUNTINGPERIOD,
+                                        FP.PERIOD_YEAR,
+                                        FP.PERIOD_MONTH,
+                                        FDKIT.CURRENCY
+                                    FROM FUNDSPAYMENT FP
+                                        LEFT JOIN FUNDS_PERIODCONTROL FPC
+                                            ON FPC.COMPANY = FP.COMPANY
+                                        LEFT JOIN FUNDS_MASTER FM
+                                            ON FP.PK_NUMBER = FM.PK_NUMBER
+                                        LEFT JOIN FUNDS_DETAIL_KI_TRANCHE FDKIT
+                                            ON     FDKIT.UUID = FM.UUID
+                                                AND FP.CONTRACT_NUMBER = FDKIT.CONTRACT_NUMBER
+                                                AND FDKIT.ISACTIVE = 1
+                                    WHERE     PERIOD_MONTH = FPC.CURRENTACCOUNTINGPERIOD
+                                        AND PERIOD_YEAR = FPC.CURRENTACCOUNTINGYEAR
+                                ORDER BY PERIOD ASC NULLS FIRST) FP
+                                    ON (FP.CONTRACT_NUMBER = FDK.CONTRACT_NUMBER OR FP.CONTRACT_NUMBER = FDR.CONTRACT_NUMBER OR FP.CONTRACT_NUMBER = FDW.CONTRACT_NUMBER)
+                        WHERE FM.IS_ACC = '1' AND FM.ISACTIVE = '1')
+                WHERE TOTALWD > 0" ;
+
+                if($param['COMPANY'] != '0') {
+                    $q .= "AND COMPANY = '".$param['COMPANY']."'" ;
+                }
+                if($param['CREDIT_TYPE'] != '0') {
+                    $q .= "AND CREDIT_TYPE = '".$param['CREDIT_TYPE']."'" ;
+                }
+
+            $result = $this->db->query($q)->result();
+            return $result ;
+        }
+    
+    public function ForecastSingle($param, $Location) {
+        // var_dump($param); exit;
+        $this->db->trans_begin();
+        try {
+            $cekPC = $this->db->select('CURRENTACCOUNTINGPERIOD, CURRENTACCOUNTINGYEAR')
+                    ->where('COMPANY', $param['COMPANY'])
+                    ->from('FUNDS_PERIODCONTROL')
+                    ->get()->row();
+            
+            if($cekPC->CURRENTACCOUNTINGPERIOD != $param['MONTH'] || $cekPC->CURRENTACCOUNTINGYEAR != $param['YEAR']){
+                throw new Exception('Period is Changed, Reload First.');
+            }
+    
+            $forecastRes = $this->SaveForecastToCF($param, $Location) ;
+            if($forecastRes['STATUS'] == false) {
+                throw new Exception($forecastRes['MESSAGE']);
+            }
+            else {
+                $this->db->trans_commit();
+                $return = [
+                    'STATUS' => true,
+                    'MESSAGE' => 'Save Successfull'
+                ] ;
+            }
+        } catch (Exception $ex) {
+            $this->db->trans_rollback();
+            $return = [
+                'STATUS' => false,
+                'MESSAGE' => $ex->getMessage()
+            ] ;
+        }
+        $this->db->close();
+        return $return ;
+    }
+
+    public function ForecastMultiple($param, $Location) {
+        // var_dump($param); exit;
+        try {
+            foreach($param as $item) {
+                $cekPC = $this->db->select('CURRENTACCOUNTINGPERIOD, CURRENTACCOUNTINGYEAR')
+                        ->where('COMPANY', $item['COMPANY'])
+                        ->from('FUNDS_PERIODCONTROL')
+                        ->get()->row();
+                
+                if($cekPC->CURRENTACCOUNTINGPERIOD != $item['MONTH'] || $cekPC->CURRENTACCOUNTINGYEAR != $item['YEAR']){
+                    throw new Exception('Period is Changed, Reload First.');
+                    break ;
+                }
+            }
+            // exit;
+            foreach($param as $item) {
+                $forecastRes = $this->SaveForecastToCF($item, $Location) ;
+                if($forecastRes['STATUS'] == false) {
+                    throw new Exception($forecastRes['MESSAGE']);
+                }
+                else {
+                    $return = [
+                        'STATUS' => true,
+                        'MESSAGE' => 'Save Successfull'
+                    ] ;
+                }
+            }
+        } catch (Exception $ex) {
+            $return = [
+                'STATUS' => false,
+                'MESSAGE' => $ex->getMessage()
+            ] ;
+        }
+        return $return ;
+    }
+    
+    public function SaveForecastToCF($param, $Location) {
+        // var_dump($param); exit;
+        $return = [] ;
+        try {
+            $INSTALLMENT = intval(preg_replace("/[^\d\.\-]/","",$param['INSTALLMENT'])) ;
+            $IDC_INSTALLMENT = intval(preg_replace("/[^\d\.\-]/","",$param['IDC_INSTALLMENT'])) ;
+            $INTEREST = intval(preg_replace("/[^\d\.\-]/","",$param['INTEREST'])) ;
+            $IDC_INTEREST = intval(preg_replace("/[^\d\.\-]/","",$param['IDC_INTEREST'])) ;
+            $AMOUNT_PAID = $INSTALLMENT + $IDC_INSTALLMENT + $INTEREST + $IDC_INTEREST ;
+            $master = $this->db->select('COMPANY, BUNIT, BANK, PK_NUMBER, CREDIT_TYPE')
+                        ->where(['UUID' => $param['UUID']])
+                        ->from('FUNDS_MASTER')
+                        ->get()->row();
+            $pay_id = $param['PK_NUMBER'].'$'.$param['CONTRACT_NUMBER'].'$'.$param['DATE_FORECAST'].'$FORECAST';
+            //insert CFTRANS
+            $cf = [
+                "DEPARTMENT" => 'BANK-RELATION',
+                "COMPANY" => $master->COMPANY,
+                "BUSINESSUNIT" => $master->BUNIT,
+                "DOCNUMBER" => $pay_id,
+                "DOCTYPE" => 'KI_FORECAST',
+                "VENDOR" => $master->BANK,
+                "CURRENCY" => $param['CURRENCY'],
+                "EXTSYS" => 'SAPHANA',
+                "VAT" => "",
+                "REMARK" => "Payment Req",
+                "AMOUNT_INCLUDE_VAT" => $AMOUNT_PAID,
+                "TOTAL_BAYAR" => $AMOUNT_PAID,
+                "AMOUNT_PPH" => 0,
+                "RATE" => 1,
+                "FCEDIT" => $param['USERNAME'],
+                "FCIP" => $Location
+            ];
+
+            $result = $this->db->set('LASTUPDATE', "SYSDATE", false)
+                            ->set('DOCDATE', "TO_DATE('{$param['DATE_FORECAST']}','mm/dd/yyyy')", false)
+                            ->set('DUEDATE', "TO_DATE('{$param['DATE_FORECAST']}','mm/dd/yyyy')", false)
+                            ->set('LASTTIME', "TO_CHAR(SYSDATE, 'HH24:MI')", false);
+            
+            $Data["ID"] = $this->uuid->v4();
+            $cf["ID"]   = $Data["ID"];
+            $cf["ISACTIVE"] = "TRUE";
+            $cf["FCENTRY"] = $param['USERNAME'];
+            $result = $result->set($cf)->insert($this->CF_TRANSACTION);
+
+            $cf_det = [
+                "ID" => $param['UUID'],
+                "MATERIAL" => '100078',
+                "REMARKS" => '',
+                "AMOUNT_INCLUDE_VAT" => $cf['AMOUNT_INCLUDE_VAT'],
+                "AMOUNT_PPH" => 0,
+                "ISACTIVE" => "TRUE",
+                "FCENTRY" => $param['FCENTRY'],
+                "FCEDIT" => $param['FCENTRY'],
+                "FCIP" => $Location
+            ];
+            $result2 = $this->db->set('LASTUPDATE', "SYSDATE", false)->set('LASTTIME', "TO_CHAR(SYSDATE, 'HH24:MI')", false)
+                            ->set($cf_det)->insert($this->CF_TRANSACTION_DET);
+
+            if($result && $result2) {
+                $dt_pay = [
+                    'PAY_ID' => $pay_id,
+                    'IS_PAYMENT' => 1
+                ];
+
+                $result1 = $this->db->set('LASTUPDATE', "SYSDATE", false)
+                    ->set($dt_pay)
+                    ->where('ID', $param['ID'])
+                    ->update('FUNDSPAYMENT');
+
+                if($result1) {
+                    $return = ['STATUS' => true] ;
+                }
+                else {
+                    throw new Exception('Failed to update') ;
+                }
+            }
+        } catch (Exception $ex) {
+            $return = [
+                'STATUS' => false,
+                'MESSAGE' => $ex->getMessage()
+            ] ;
+        }
+        
+        return $return ;
+    }
+    // ^^^
 }

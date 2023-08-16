@@ -76,6 +76,24 @@ class KmkController extends BaseController {
         $this->SendResponse();
     }
 
+    public function ShowDataForecast() {
+        // $param = $this->input->post();
+        try {
+            $param = $this->input->post();
+            $list = $this->PayReqKMKKIModel->ShowDataForecast($param);
+            $this->resource = array(
+                'status' => 200,
+                'data' => $list
+            );
+        } catch (Exception $ex) {
+            $this->resource = array(
+                'status' => 500,
+                'data' => $ex->getMessage()
+            );
+        }
+        $this->SendResponse();
+    }
+
     public function loadBusinessUnit(){
         $q = $this->input->get_post('COMPANY', true);
         $query = "SELECT ID,FCCODE as TEXT, COMPANY FROM BUSINESSUNIT WHERE COMPANY = '$q' AND FCCODE LIKE '%HO%'";
@@ -1950,31 +1968,39 @@ class KmkController extends BaseController {
     }
 
     public function reupdateAllReportKI() {
-        $allq = "select fm.UUID , fm.PK_NUMBER from funds_master fm left join funds_detail_ki fd on fd.uuid = fm.uuid where fm.credit_type = 'KI' and fm.isactive = 1 and fd.isactive = 1" ;
+        $this->benchmark->mark('code_start');
+        $allq = "select fm.UUID , fm.PK_NUMBER, fm.KI_TYPE from funds_master fm left join funds_detail_ki fd on fd.uuid = fm.uuid where fm.credit_type = 'KI' and fm.isactive = 1 and fd.isactive = 1" ;
         $all = $this->db->query($allq)->result();
         // echo "<pre>";
         // var_dump($all); 
         // exit;
-        foreach($all as $item) {
-            $param = [
-                'UUID' => $item->UUID,
-                'PK_NUMBER' => $item->PK_NUMBER
-            ] ;
-            try {
-                $list = $this->ReportGenModel->SaveReportKI($param, $this->GetIpAddress()) ;
-                // var_dump($list); exit;
-                $this->resource = array(
-                    'status' => 200,
-                    'data' => $list 
-                ) ;
-    
+        try {
+            foreach($all as $item) {
+                $param = [
+                    'UUID' => $item->UUID,
+                    'PK_NUMBER' => $item->PK_NUMBER
+                ] ;
+                $list = $this->ReportGenModel->SaveReportKI($param, $this->GetIpAddress());
+                if($item->KI_TYPE == 'SYNDICATION') {
+                    $list = $this->ReportGenModel->SaveReportKI_SYD($param, $this->GetIpAddress());
+                }
+                if(!$list) {
+                    throw new Exception('error');
+                }
+                    // var_dump($list); exit;
             }
-            catch (Exception $ex) {
-                $this->resource = array (
-                    'status' => 500,
-                    'data' => $ex->getMessage()
-                ) ;
-            }
+        } catch (Exception $ex) {
+            $this->resource = array (
+                'status' => 500,
+                'data' => $ex->getMessage()
+            ) ;
+        }
+        $this->benchmark->mark('code_end');
+        if($list) {
+            $this->resource = array(
+                'status' => 200,
+                'data' => ["Time :". $this->benchmark->elapsed_time('code_start', 'code_end') ]
+            ) ;
         }
         $this->SendResponse();
     }
@@ -2541,4 +2567,135 @@ class KmkController extends BaseController {
         echo $updatedata ;
         return false ;
     }
+    //Update 1.3
+    public function DisableEnableTranche() {
+        ini_set('display_errors', 'On');
+        $param = $this->input->post();
+        // var_dump($param) ; exit;
+        try {
+            $result = $this->KMKModel->DisableEnableTranche($param) ;
+            // var_dump($result); exit;
+            if($result['STATUS'] == TRUE) {
+                $this->resource = [
+                    'status' => 200,
+                    'data' => $result['MESSAGE']
+                ] ;
+            }
+            else {
+                $this->resource = [
+                    'status' => 500,
+                    'data' => $result['MESSAGE']
+                ] ;
+            }
+        } catch (Exception $ex) {
+            $this->resource = [
+                'status' => 500,
+                'data' => $ex->getMessage()
+            ] ;
+        }
+        $this->SendResponse();
+    }
+    //^ ^ ^
+
+    //Updatev1.4
+    public function ShowPaymentDataHistRequest() {
+        $param = $this->input->post();
+        try {
+            $param = $this->input->post();
+            $list = $this->PayReqKMKKIModel->ShowPaymentDataHistRequest($param);
+            $this->resource = array(
+                'status' => 200,
+                'data' => $list
+            );
+        } catch (Exception $ex) {
+            $this->resource = array(
+                'status' => 500,
+                'data' => $ex->getMessage()
+            );
+        }
+        $this->SendResponse();
+    }
+
+    public function UploadPaymentBillKMKKI() {
+        $param = $this->input->post();
+        // var_dump($param); exit;
+        try {
+            $param = $this->input->post();
+            $result = $this->PayReqKMKKIModel->UploadPaymentBillKMKKI($param, $this->GetIpAddress());
+            if($result['STATUS'] == TRUE) {
+                $this->resource = array(
+                    'status' => 200,
+                    'data' => $result['MESSAGE']
+                );
+            }
+            else {
+                throw new Exception($result['MESSAGE']) ;
+            }
+        } catch (Exception $ex) {
+            $this->resource = array(
+                'status' => 500,
+                'data' => $ex->getMessage()
+            );
+        }
+        $this->SendResponse();
+    }
+    //^ ^ ^
+
+    //Update 1.5
+    public function ForecastSingle() {
+        $param = $this->input->post();
+        $data = $param['FRCST'] ;
+        $data['USERNAME'] = $param['USERNAME'];
+        try {
+            $result = $this->PayReqKMKKIModel->ForecastSingle($data, $this->GetIpAddress());
+            if($result['STATUS'] == false) {
+                throw new Exception($result['MESSAGE']) ;
+            } 
+            else {
+                $this->resource = [
+                    'status' => 200,
+                    'data' => 'Success forecasting'
+                ] ;
+            }
+        } catch (Exception $ex) {
+            $this->resource = array(
+                'status' => 500,
+                'data' => $ex->getMessage()
+            );
+        }
+        $this->SendResponse();
+    }
+
+    public function ForecastMultiple() {
+        $param = $this->input->post();
+        $frcst = json_decode($param['FRCST'], true);
+        // var_dump($frcst); exit;
+        $data = [];
+        foreach($frcst as $item) {
+            $item['USERNAME'] = $param['USERNAME'] ;
+            array_push($data, $item) ;
+            // var_dump($item);
+        }
+        // var_dump($data); exit;
+        try {
+            $result = $this->PayReqKMKKIModel->ForecastMultiple($data, $this->GetIpAddress());
+            if($result['STATUS'] == false) {
+                throw new Exception($result['MESSAGE']) ;
+            } 
+            else {
+                $this->resource = [
+                    'status' => 200,
+                    'data' => 'Success Forecasting'
+                ] ;
+            }
+        } catch (Exception $ex) {
+            $this->resource = array(
+                'status' => 500,
+                'data' => $ex->getMessage()
+            );
+        }
+        $this->SendResponse();
+        
+    }
+    // ^ ^ ^
 }

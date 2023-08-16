@@ -53,7 +53,7 @@
                     </div>
                      <div class="col-2">
                         <label for="PERIOD">Period</label>
-                        <input type="text" class="form-control" name="PERIOD" id="PERIOD" autocomplete="off" disabled='disabled'>
+                        <input type="text" class="form-control" name="PERIOD" id="PERIOD" autocomplete="off" >
                     </div>
                     <!-- <div class="col-4 mt-4">
                         <button type="button" class="btn btn-info" style="padding: 3px 10px;" onclick="searchLeasing()">Search</button>
@@ -62,17 +62,16 @@
             </div>
         </div>
         <div class="row ml-0 mr-0 mb-0 mt-2 table-responsive">
-            <table id="DtLeasingCompletion" class="table table-striped table-bordered" cellspacing="0" width="100%" aria-describedby="DtUpload_info">
+            <table id="DtPaymentReq" class="table table-striped table-bordered" cellspacing="0" width="100%" aria-describedby="DtUpload_info">
                 <thead>
                     <tr role="row">
                         <th class="text-center sorting align-middle" >Company</th>
-                        <th class="text-center sorting align-middle" >PK NUMBER</th>
                         <!-- <th class="text-center sorting align-middle" >Contract Number</th>
                         <th class="text-center sorting align-middle" >PK Number</th> -->
+                        <th class="text-center sorting align-middle" >Doc Number</th>
                         <th class="text-center sorting align-middle" >Credit Type</th>
-                        <th class="text-center sorting align-middle" >Docdate</th>
-                        <th class="text-center sorting align-middle" >Contract Number</th>
-                        <th class="text-center sorting align-middle" >Interest</th>
+                        <th class="text-center sorting align-middle" >Period</th>
+                        <th class="text-center sorting align-middle" >Currency</th>
                         <th class="text-center sorting align-middle" >Amount</th>
                         <th class="text-center sorting align-middle" >Action</th>
                     </tr>
@@ -80,7 +79,7 @@
             </table>
         </div>
         <!-- modal -->
-        <div class="modal fade" id="ReceiveModal" tabindex="-1" role="dialog" aria-labelledby="ReceiveModal" aria-hidden="true">
+        <div class="modal fade" id="UploadAttachment" tabindex="-1" role="dialog" aria-labelledby="Upload Attachment" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -90,143 +89,38 @@
                 </button>
               </div>
               <div class="modal-body">
-                <form id="FORMPAYMENT" data-parsley-validate="true" data-parsley-errors-messages-disabled onsubmit="return false">
-                    <div class="row align-items-center pay_state">
-                        <div class="col-md-6 ">
-                            <h5 class='pay_state_txt'>Next Payment Period :</h5>
-                        </div>
-                        <div class="col-md-3 form-group">
-                            <label for="NEXT_PERIOD"></label>
-                            <input type="text" name="NEXT_PERIOD" id="NEXT_PERIOD" class="form-control" disabled>
-                        </div>
-                        <div class="col-md-3">
-                            <button type="button" id="EZUPPERI" class="btn btn-sm btn-primary" onclick="EasyUpdatePeriod()">Change</button>
-                        </div>
+                <form id="FORMUPLOAD" data-parsley-validate="true" data-parsley-errors-messages-disabled onsubmit="return false">
+                    <div class="row form-group">
+                       <label for="inputValReal" class="col-3 col-form-label">Billing Value</label>
+                       <div class="col-9">
+                           <input type="text" class="form-control" data-type='currency' id='BILVAL' required>
+                       </div>
                     </div>
+                        </br>
                     <div class="row item_form">
-                        <input type="hidden" id="id">
-                        <input type="hidden" id="mcontractnumber">
-                        <input type="hidden" id="mpknumber">
-                        <input type="hidden" id="mcompany">
-                        <input type="hidden" id="mwdtype">
-                        <input type="hidden" id="mcurrency">
-                        <input type="hidden" id="mdocdate">
-                        <input type="hidden" id="ID">
-                        <!-- <input type="hidden" id="noreceiptdoc"> -->
-                        <!-- <span style="color:red;">* Maksimal 100 Karakter</span> -->
-                        <div class="col-md-6 mb-2 form-group">
-                                <label for="datepay">Date Installment</label>
-                                <input type="date" class="form-control" name="DATE_INSTALL" id="DATE_INSTALL" disabled="disabled">
-                        </div>
-                        <div class="col-md-6 mb-2 form-group">
-                            <label for="COMPANY">Date Payment</label>
-                            <input type="text" class="form-control" name="MPERIOD" id="MPERIOD" autocomplete="off" required>
-                        </div>
-                        <div class="col-md-8 form-group">
-                            <label for="COMPANY">Amount By User</label>
-                            <div class="input-group input-group-sm">
-                                <span class="input-group-addon" id="Curr"></span>
-                                <input type="text" data-type='currency' placeholder="amount" class="form-control" name="AMOUNT_MODAL" id="AMOUNT_MODAL" autocomplete="off" >
+                        <div class="col-md-12">
+                            <p>Attachment File Payment Invoice</p>
+                            <div class="custom-file">
+                                <input type="file" class="upload-file" name="userfile" id="ATTACHMENT_FILE" onchange="setFiles(this)">
+                                <label class="custom-file-label" for="ATTACHMENT_FILE" id="filename">Choose file</label>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 form-group">
-                            <label for="installment">Installment</label>
-                            <input type="text" data-type='currency' placeholder="amount" class="form-control" name="AMOUNT_INSTALLMENT" id="AMOUNT_INSTALLMENT" autocomplete="off" disabled="disabled">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label for="insterest">Interest Amount</label>
-                            <input type="text" data-type='currency' placeholder="amount" class="form-control" name="AMOUNT_INTEREST" id="AMOUNT_INTEREST" autocomplete="off" disabled="disabled">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label for="installment_IDC">IDC Installment</label>
-                            <input type="text" data-type='currency' placeholder="amount" class="form-control" name="AMOUNT_IDC_INSTALLMENT" id="AMOUNT_IDC_INSTALLMENT" autocomplete="off" disabled="disabled">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label for="insterest_IDC">IDC Interest Amount</label>
-                            <input type="text" data-type='currency' placeholder="amount" class="form-control" name="AMOUNT_IDC_INTEREST" id="AMOUNT_IDC_INTEREST" autocomplete="off" disabled="disabled">
-                        </div>
-                        <div class="col-md-4 form-group pull-right">
-                                <label>Attachment File</label>
-                                <select name="FILE_TYPE" id="FILE_TYPE" class="form-control">
-                                    <option value="BATCH_INVOICE">Payment Invoice</option>
-                                </select>
-                                <input type="file" name="ATTACHMENT_WDAR" id="upload-payment-file"/>
-                                <input type="hidden" id="DETID">
+                        <div class="col-4 form-group align-items-end">
+                            <button class="btn btn-primary m-r-3" id="DOWNLOAD">Download File</button>
                         </div>
                     </div>
                 </form>
               </div>
               <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="Submit" onclick="UploadAttachment()">Submit</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" id="saveModal">Save Payment Request</button>
               </div>
             </div>
           </div>
         </div>
         <!-- end modal -->
-        <!-- modal for kmk -->
-        <div class="modal fade" id="ReceiveModalKMK" tabindex="-1" role="dialog" aria-labelledby="ReceiveModalKMK" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered " role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Doc No - <span id="DOCNUMBKMK"></span></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <form id="FORMPAYMENTKMK" data-parsley-validate="true" data-parsley-errors-messages-disabled onsubmit="return false">
-                    <div class="row">
-                        <input type="hidden" id="id">
-                        <input type="hidden" id="mcontractnumber">
-                        <input type="hidden" id="mpknumber">
-                        <input type="hidden" id="mcompany">
-                        <input type="hidden" id="mwdtype">
-                        <input type="hidden" id="mcurrency">
-                        <input type="hidden" id="mdocdate">
-                        <input type="hidden" id="ID">
-                        <input type="hidden" id="PERIOD">
-                        <input type="hidden" id="START_PERIOD">
-                        <!-- <input type="hidden" id="noreceiptdoc"> -->
-                        <!-- <span style="color:red;">* Maksimal 100 Karakter</span> -->
-                        <div class="col-md-6 mb-2 form-group">
-                            <label for="COMPANY">Date Payment</label>
-                            <input type="date" class="form-control" name="MPERIOD" id="MPERIODKMK" autocomplete="off" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label for="COMPANY">Amount By User</label>
-                            <input type="text" data-type='currency' placeholder="amount" class="form-control" name="AMOUNT_MODAL" id="AMOUNT_MODALKMK" autocomplete="off" >
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 form-group">
-                            <label for="insterest">Interest Amount</label>
-                            <input type="text" data-type='currency' placeholder="amount" class="form-control" name="AMOUNT_INTEREST" id="AMOUNT_INTERESTKMK" autocomplete="off" disabled="disabled">
-                        </div>
-                        <div class="col-md-6 form-group">
-                             <label for="FINAL_AMOUNT">Final Amount</label>
-                            <input type="text" data-type='currency' placeholder="amount" class="form-control" name="FINAL_AMOUNT" id="FINAL_AMOUNT" autocomplete="off" disabled="disabled" >
-                        </div>
-                        <div class="col-md-4 form-group pull-right">
-                                <label>Attachment File</label>
-                                <select name="FILE_TYPE" id="FILE_TYPE" class="form-control">
-                                    <option value="BATCH_INVOICE">Payment Invoice</option>
-                                </select>
-                                <input type="file" name="ATTACHMENT_WDAR" id="upload-payment-filekmk"/>
-                        </div>
-                    </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" id="saveModalKMK">Save Payment Request</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end modal kmk -->
     </div>
 </div>
 <script src="./assets/js/datetime/moment-with-locales.min.js"></script>
@@ -237,7 +131,7 @@
     var DELETES = <?php echo $ACCESS['DELETES']; ?>;
     var USERNAME = "<?php echo $SESSION->FCCODE; ?>";
     var filetypeUpload = ['PDF', 'DOC', 'DOCX'];
-    var files = '';
+    var DOCNUMBER, files, FILENAME, DATE_PAY ;
 
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = decodeURIComponent(window.location.search.substring(1)),
@@ -252,525 +146,208 @@
         }
     };
     var ListBulan = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    var table2;
+    var table;
 
     // $(document).ready(function () {
     //     LoadDataTable();
     // });
     var sDate,fDate;
 
-    $('#MPERIOD').datepicker({
-        "autoclose": true,
-        "todayHighlight": true,
-        "format": "mm-dd-yyyy"
-    });
-    var MONTH,YEAR;
-
-
-    $('#PERIODTO').datepicker({
-                "autoclose": true,
-                "todayHighlight": true
-        });
-    $('#PERIODFROM').datepicker({
-                "autoclose": true,
-                "todayHighlight": true
-        });
-
-    $(document).ready(function(e){
-        $('button.dt-button').addClass('btn');
-        $('button.dt-button').addClass('btn-primary');
-    });
-
-    // $('#MPERIOD').datepicker({
-    //     "autoclose": true,
-    //     "todayHighlight": true,
-    //     "format": "mm/dd/yyyy",
-    //     "startDate": '-1m',
-    // });
-
-    // function LoadDataTable() {
-        if (!$.fn.DataTable.isDataTable('#DtLeasingCompletion')) {
-            $('#DtLeasingCompletion').DataTable({
-                "processing": true,
-                // dom: 'Bfrtip',
-                // buttons: [
-                //     {
-                //         extend: 'excelHtml5',
-                //         title: 'Report Payment'
-                //     },  
-                // ],
-                "ajax": {
-                    "url": "<?php echo site_url('Kmk/ShowDataPaymentRequest') ?>",
-                    "type": "POST",
-                    "datatype": "JSON",
-                    "data": function (d) {
-                        d.CREDIT_TYPE = $('#CREDIT_TYPE').val();
-                        d.sDATE = sDate;
-                        d.fDATE = fDate;
-                        // d.DOCDATE =  moment($('#DOCDATE').val()).format('MM-DD-YYYY');
-                        d.COMPANY   = $('#COMPANY').val();
-                    },
-                    "dataSrc": function (ext) {
-                        
-                        if (ext.status == 200) {
-                            $("#loader").hide();
-                            return ext.result.data;
-                        } else if (ext.status == 504) {
-                            alert(ext.result.data);
-                            location.reload();
-                            return [];
-                        } else {
-                            // console.info(ext.result.data);
-                            return [];
-                        }
-                    }
-                },
-                "columns": [
-                    {"data": "COMPANYCODE","className": "text-center",},
-                    {"data": "PK_NUMBER","className": "text-center",},
-                    {"data": "SUB_CREDIT_TYPE","className": "text-center",},
-                    // {"data": "CONTRACT_NUMBER"},
-                    // {"data": "PK_NUMBER"},
-                    {"data": "DOCDATE","className": "text-center",},
-                    {"data": "CONTRACT_NUMBER","className": "text-center",},
-                    {"data": "INTEREST","className": "text-center",},
-                    {"data": "TOTALWD","className": "text-center",render: $.fn.dataTable.render.number(',', '.', 2)},
-                    {
-                        "data": null,
-                        "className": "text-center",
-                        "orderable": false,
-                        render: function(data, type, row, meta) {
-                            var html = '';
-                            if(row.SUB_CREDIT_TYPE == 'WA' || row.SUB_CREDIT_TYPE == 'RK' || row.SUB_CREDIT_TYPE == 'TL' || row.SUB_CREDIT_TYPE == 'BD') {
-                                html += '<button class="btn btn-indigo btn-sm ReceiveModalKMK" data-id="'+data.UUID+'" data-contractnumber="'+data.CONTRACT_NUMBER+'" data-pknumber="'+data.PK_NUMBER+'" data-company="'+data.COMPANY+'" data-wdtype="'+data.SUB_CREDIT_TYPE+'" data-currency="'+data.CURRENCY+'" data-docdate="'+data.DOCDATE+'"  id="ReceiveModalsKMK" title="Receive" data-toggle="modal" data-target="#ReceiveModalKMK">Create Request</button>';
-                            }
-                            else {
-                                html += '<button class="btn btn-indigo btn-sm ReceiveModal" data-id="'+data.UUID+'" data-contractnumber="'+data.CONTRACT_NUMBER+'" data-pknumber="'+data.PK_NUMBER+'" data-company="'+data.COMPANY+'" data-wdtype="'+data.SUB_CREDIT_TYPE+'" data-currency="'+data.CURRENCY+'" data-docdate="'+data.DOCDATE+'"  id="ReceiveModals" title="Receive" data-toggle="modal" data-target="#ReceiveModal">Create Request</button>';
-                            }
-                            // html += '<button class="btn btn-info btn-sm COMPLETION" data-id="'+data.ID+'" data-year="'+data.PERIOD_YEAR+'" data-month="'+data.PERIOD_MONTH+'"  data-docnumber="'+data.DOCNUMBER+'" data-lineno="'+data.LINENO+'"  id="COMPLETION" title="Pay">Execute</button>';
-                            return html;
-                        }
-                    }
-                ],
-            });
-
-            $('#DtLeasingCompletion_filter').remove()
-
-            $('#search').on( 'input', function () {
-                table2.search( this.value ).draw();
-            });
-
-            $('#DtLeasingCompletion thead th').addClass('text-center');
-            table2 = $('#DtLeasingCompletion').DataTable();
-            // $("#DtLeasingCompletion_filter").remove();
-            // $("#DOCNUMBER").on({
-            //     'keyup': function () {
-            //         table2.search(this.value, true, false, true).draw();
-            //     }
-            // });
-
-        } else {
-            table2.ajax.reload();
-        }
-    // }
-
-    $('body').on('click','#ReceiveModals',function(){
-            // console.log($(this).attr('data-currency'));
-            // var IDS = $(this).attr('data-id');
-            $('body').find('#saveModal').html('Save Payment Request').removeClass('btn-success').addClass('btn-primary');
-            var UUID           = $(this).attr('data-id');
-            var contractnumber = $(this).attr('data-contractnumber');
-            var COMPANY   = $(this).attr('data-company');
-            var pknumber  = $(this).attr('data-pknumber');
-            var wdtype    = $(this).attr('data-wdtype');
-            var currency  = $(this).attr('data-currency');
-            var docdate = $(this).attr('data-docdate');
-            $('#DOCNUMB').text(contractnumber);
-            $('#MPERIOD').val("");
-            $('#AMOUNT_MODAL').val("") ;
-            $('#AMOUNT_INSTALLMENT').val("");
-            $('#AMOUNT_INTEREST').val("");
-            $('#AMOUNT_IDC_INSTALLMENT').val("");
-            $('#AMOUNT_IDC_INTEREST').val("");
-            $('#DATE_INSTALL').val("");
-            $('#EXC_RATE').val("");
-            $('#id').text(UUID);
-            $('#mcontractnumber').text(contractnumber);
-            $('#mdocdate').text(docdate);
-            $('#mcompany').text(COMPANY);
-            $('#mpknumber').text(pknumber);
-            $('#mwdtype').text(wdtype);
-            $('#mcurrency').val(currency);
-            $('#EZUPPERI').attr("disabled", true);
-
-            if(wdtype == 'KI') {
-                $.ajax({
-                    dataType : 'JSON',
-                    type : 'POST',
-                    url : "<?php echo site_url("Kmk/ShowLatestInstallment")?>",
-                    data : {
-                        CONTRACT_NUMBER : contractnumber
-                    },
-                    success : function(response){
-                        var res = response.result.data;
-                        var data = res.DATA ;
-                        var currentMonth = parseInt(data['CURRENTACCOUNTINGPERIOD']) ;
-                        var currentYear = parseInt(data['CURRENTACCOUTINGYEAR']);
-                        var latMonth = parseInt(data['LAT_PM']);
-                        var latYear = parseInt(data['LAT_PY']) ;
-                        $(".alert-warning").remove();
-                        // console.log(data);
-                        if(res.IS_EXIST == true && data['IS_PAYMENT'] == null) {
-                            if(currentMonth != latMonth && currentYear != latYear) {
-                                $('.pay_state').show();
-                                $('#NEXT_PERIOD').val(String(latMonth)+'-'+String(latYear));
-                                var alertChg = `<div class="alert alert-warning" role="alert">
-                                                    This Payment exceeded latest period payment term, please go back by click "Change" button
-                                                    </div>`;
-                                $(alertChg).insertBefore('.item_form');
-                               $('body').find('#saveModal').attr('disabled',false);
-                               $('body').find('#EZUPPERI').attr('disabled',false);
-                            }
-                            else {
-                                $(".alert-warning").remove();
-                                $('.pay_state').hide();
-                                $('body').find('#EZUPPERI').attr('disabled','disabled');
-                               $('body').find('#saveModal').attr('disabled',false);
-                            }
-                            $('body').find('#saveModal').html('Save Payment Request').removeClass('btn-success').addClass('btn-primary');
-                            $('#MPERIOD').attr("disabled",false);
-                            $('#DATE_INSTALL').val(data['END_PERIOD_C']);
-                            var amount_to_pay = parseInt(data['INSTALLMENT']) + parseInt(data['INTEREST']) + parseInt(data['IDC_INTEREST'] ? data['IDC_INTEREST'] : 0 ) + parseInt(data['IDC_INSTALLMENT'] ? data['IDC_INSTALLMENT'] :0);
-                            $('#AMOUNT_INSTALLMENT').val(fCurrency(data['INSTALLMENT'], data['CURRENCY']));
-                            $('#AMOUNT_INTEREST').val(fCurrency(data['INTEREST'], data['CURRENCY']));
-                            $('#AMOUNT_IDC_INSTALLMENT').val(data['CURRENCY'] +" "+fCurrency(data['IDC_INSTALLMENT'] ? data['IDC_INSTALLMENT'] : '0'));
-                            $('#AMOUNT_IDC_INTEREST').val(data['CURRENCY'] +" "+ fCurrency(data['IDC_INTEREST'] ? data['IDC_INTEREST'] : '0'));
-                            $('#AMOUNT_MODAL').val(fCurrency(String(amount_to_pay))) ;
-                            $('#Curr').html(data['CURRENCY']);
-                            $('#EXC_RATE').val(data['EXCHANGE_RATE']);
-                            MONTH = data['CURRENTACCOUNTINGYEAR'] ;
-                            YEAR = data['CURRENTACCOUNTINGPERIOD'];
-                            $('#ID').val(data['ID']);
-                            $('#PERIOD').val(MONTH + '-' + YEAR);
+    $(document).ready(function() {
+        // function LoadDataTable() {
+            if (!$.fn.DataTable.isDataTable('#DtPaymentReq')) {
+                $('#DtPaymentReq').DataTable({
+                    "processing": true,
+                    // dom: 'Bfrtip',
+                    // buttons: [
+                    //     {
+                    //         extend: 'excelHtml5',
+                    //         title: 'Report Payment'
+                    //     },  
+                    // ],
+                    "ajax": {
+                        "url": "<?php echo site_url('Kmk/ShowPaymentDataHistRequest') ?>",
+                        "type": "POST",
+                        "datatype": "JSON",
+                        "data": function (d) {
+                            d.CREDIT_TYPE = $('#CREDIT_TYPE').val();
+                            d.PERIOD = $('#PERIOD').val(),
+                            // d.DOCDATE =  moment($('#DOCDATE').val()).format('MM-DD-YYYY');
+                            d.COMPANY   = $('#COMPANY').val();
+                        },
+                        "dataSrc": function (ext) {
                             
-                        }
-                        else if(res.IS_EXIST == true && data['IS_PAYMENT'] == 1) {
-                            $('.pay_state').show();
-                            $('#NEXT_PERIOD').val(String(latMonth)+'-'+String(latYear));
-                            var alertChg = `<div class="alert alert-warning" role="alert">
-                                                This Payment period term already paid, please go to next term by click "Change" button
-                                                </div>`;
-                            $(alertChg).insertBefore('.item_form');
-                            $('body').find('#EZUPPERI').attr('disabled',false);
-                            // $(".alert-warning").remove();
-                            // $('.pay_state').hide();
-                            $('#DATE_INSTALL').val(data['END_PERIOD_C']);
-                            var amount_to_pay = parseInt(data['INSTALLMENT']) + parseInt(data['INTEREST']) + parseInt(data['IDC_INTEREST'] ? data['IDC_INTEREST'] : 0 ) + parseInt(data['IDC_INSTALLMENT'] ? data['IDC_INSTALLMENT'] :0);
-                            $('#AMOUNT_INSTALLMENT').val(fCurrency(data['INSTALLMENT'], data['CURRENCY']));
-                            $('#AMOUNT_INTEREST').val(fCurrency(data['INTEREST'], data['CURRENCY']));
-                            $('#AMOUNT_IDC_INTEREST').val(data['CURRENCY'] +" "+ fCurrency(data['IDC_INTEREST'] ? data['IDC_INTEREST'] : '0' ));
-                            $('#AMOUNT_IDC_INSTALLMENT').val(data['CURRENCY'] +" "+fCurrency(data['IDC_INSTALLMENT'] ? data['IDC_INSTALLMENT'] : '0'));
-                            $('#MPERIOD').val(data['PAYMENT_DATE_C']);
-                            $('#MPERIOD').attr("disabled","disabled");
-                            $('#AMOUNT_MODAL').val(fCurrency(String(amount_to_pay))) ;
-                            $('#Curr').html(data['CURRENCY']);
-                            $('body').find('#saveModal').html('Payment Requested').removeClass('btn-primary').addClass('btn-success');
-                            $('body').find('#saveModal').attr('disabled','disabled');
-                            MONTH = data['CURRENTACCOUNTINGYEAR'] ;
-                            YEAR = data['CURRENTACCOUNTINGPERIOD'];
-                            $('#PERIOD').val(MONTH + '-' + YEAR);
-                        }
-                        else if(res.IS_EXIST == false) {
-                            $(".alert-warning").remove();
-                            $('.pay_state').show();
-                            $('body').find('.btn-primary').attr('disabled','disabled');
-                            $('#MPERIOD').attr("disabled",false);
-                            $('#NEXT_PERIOD').val(data['PERIOD_NXT']);
-                            $('#EZUPPERI').attr("disabled", false);
-                            toastr.error('Not In Payment Period');
-                        }
-                        else {
-                            $(".alert-warning").remove();
-                            $('body').find('.btn-primary').attr('disabled','disabled');
-                            $('#MPERIOD').attr("disabled",false);
-                            toastr.error('ERROR');
+                            if (ext.status == 200) {
+                                $("#loader").hide();
+                                return ext.result.data;
+                            } else if (ext.status == 504) {
+                                alert(ext.result.data);
+                                location.reload();
+                                return [];
+                            } else {
+                                // console.info(ext.result.data);
+                                return [];
+                            }
                         }
                     },
-                    error : function(error) {
-                        toastr.error(error);
-                    }
+                    "columns": [
+                        {"data": "COMPANYCODE","className": "text-center",},
+                        {"data": "PAY_ID","className": "text-center",},
+                        // {"data": "CONTRACT_NUMBER"},
+                        // {"data": "PK_NUMBER"},
+                        {"data": "CREDIT_TYPE","className": "text-center",},
+                        {"data": "PERIOD","className": "text-center",},
+                        {"data": "CURRENCY","className": "text-center",},
+                        {"data": "AMOUNT","className": "text-center",render: $.fn.dataTable.render.number(',', '.', 2)},
+                        {
+                            "data": null,
+                            "className": "text-center",
+                            "orderable": false,
+                            render: function(data, type, row, meta) {
+                                var html = '';
+                                html += '<button class="btn btn-indigo btn-sm upload"  id="UploadAttachmentBtn" title="Receive" data-toggle="modal" data-target="#UploadAttachment">Process</button>' ;
+                                // html += '<button class="btn btn-info btn-sm COMPLETION" data-id="'+data.ID+'" data-year="'+data.PERIOD_YEAR+'" data-month="'+data.PERIOD_MONTH+'"  data-docnumber="'+data.DOCNUMBER+'" data-lineno="'+data.LINENO+'"  id="COMPLETION" title="Pay">Execute</button>';
+                                return html;
+                            }
+                        }
+                    ],
                 });
+    
+                $('#DtPaymentReq_filter').remove()
+    
+                $('#search').on( 'input', function () {
+                    table.search( this.value ).draw();
+                });
+    
+                $('#DtPaymentReq thead th').addClass('text-center');
+                table = $('#DtPaymentReq').DataTable();
+                // $("#DtPaymentReq_filter").remove();
+                // $("#DOCNUMBER").on({
+                //     'keyup': function () {
+                //         table.search(this.value, true, false, true).draw();
+                //     }
+                // });
+    
+            } else {
+                table.ajax.reload();
+            }
+        // }
+        table = $('#DtPaymentReq').DataTable();
+        table.on('click', '.upload', function() {
+           
+            $tr = $(this).closest('tr') ;
+            var data = table.row($tr).data();
+            DOCNUMBER = data.PAY_ID ;
+            FILENAME = data.FILENAME ;
+            DATE_PAY = data.DATE_PAY ;
+            // console.log(data);
+            $('#exampleModalLabel').html("Doc No - " + data.PAY_ID) ;
+            if(data.FILENAME == null) {
+                $('#BILVAL').val('');
+                $('#BILVAL').prop('disabled', false);
+                $('#ATTACHMENT_FILE').prop('disabled', false);
+                $('#filename').html('Choose File') ;
+                $('#Submit').html('Submit');
+                $('#Submit').attr('disabled', false);
+                $('#DOWNLOAD').prop('disabled', true);
             }
             else {
-                alert('On Development');
-                $('body').find('.btn-primary').attr('disabled','disabled');
+                $('#BILVAL').val(fCurrency(data.BILLING_VALUE ? data.BILLING_VALUE : '0'));
+                $('#BILVAL').attr('disabled', true);
+                $('#ATTACHMENT_FILE').prop('disabled', true);
+                $('#filename').html(data.FILENAME) ;
+                $('#Submit').html('Submitted');
+                $('#Submit').attr('disabled', true);
+                $('#DOWNLOAD').prop('disabled', false);
             }
+        })
 
-            // $('#noreceiptdoc').val(IDS);
-            // alert($('#ModNO_PO').text());
+        $('#PERIOD').datepicker({
+        "autoclose": true,
+        "todayHighlight": true,
+        "format": "m-yyyy",
+        "maxViewMode": "months",
+        "minViewMode": "months"
     });
-
-    $('body').on('click','#ReceiveModalsKMK',function(){
-            // console.log($(this).attr('data-contractnumber'));
-            // alert('On Development');
-            // var IDS = $(this).attr('data-id');
-            $('body').find('#saveModal').html('Save Payment Request').removeClass('btn-success').addClass('btn-primary');
-            var UUID           = $(this).attr('data-id');
-            var contractnumber_kmk = $(this).attr('data-contractnumber');
-            var COMPANY   = $(this).attr('data-company');
-            var pknumber  = $(this).attr('data-pknumber');
-            var wdtype    = $(this).attr('data-wdtype');
-            var currency  = $(this).attr('data-currency');
-            var docdate = $(this).attr('data-docdate');
-            $('#DOCNUMBKMK').text(contractnumber_kmk);
-            $('#MPERIODKMK').val("");
-            $('#AMOUNT_MODALKMK').val("");
-            $('#FINAL_AMOUNT').val("");
-            $('#AMOUNT_INTERESTKMK').val("");
-            $('#PERIOD').val("");
-            $('#START_PERIOD').val("");
-            $('#id').text(UUID);
-            $('#mcontractnumber').text(contractnumber_kmk);
-            $('#mdocdate').text(docdate);
-            $('#mcompany').text(COMPANY);
-            $('#mpknumber').text(pknumber);
-            $('#mwdtype').text(wdtype);
-            $('#mcurrency').val(currency);
-            // $('#saveModalKMK').attr('disabled', 'disabled');
-
-            // $('#noreceiptdoc').val(IDS);
-            // alert($('#ModNO_PO').text());
-    });
-
-    $('body').on('click','#saveModal',function(){
-        // console.log($('#mcurrency').val());
         
-        var dttime          = moment($('#MPERIOD').val()).format('YYYY-MM-DD');
-        var UUID            = $("#id").text();
-        var COMPANY         = $('#mcompany').text(); //$(this).attr('data-company');
-        var contractnumber  = $("#mcontractnumber").text();
-        var docdate         = $("#mdocdate").text();
-        var pknumber        = $("#mpknumber").text();
-        var wdtype          = $("#mwdtype").text();
-        var amount          = $('#AMOUNT_MODAL').val();
-        var currency        = $('#mcurrency').val();
+    })
 
-        var fileInput = $('#upload-payment-file');
-        var extFile = $('#upload-payment-file').val().split('.').pop().toUpperCase();
-        var maxSize = fileInput.data('max-size');
-        if($.inArray(extFile, filetypeUpload) === -1) {
-            toastr.error('Format file tidak valid!');
-            files = '';
-            $('upload-file-payment').val();
-            return;
-        }
-        if(fileInput.get(0).files.length) {
-            var fileSize = fileInput.get(0).files[0].size;
-            if(fileSize > maxSize) {
-                toastr.error('Ukuran file terlalu besar');
-                files = '';
-                $('#upload-payment-file').val('');
-                return;
-            }
-        }
-        if(amount == '' || amount == null){
-            toastr.error("Amount Cant Empty");
-        }else{
-            if($('#FORMPAYMENT').parsley().validate()) {
-                $('#loader').addClass('show');
-                files = document.getElementById('upload-payment-file').files;
-                var FILENAME = files[0].name;
-                var fd = new FormData();
-                $.each(files, function(i, data) {
-                    fd.append("userfile", data);
-                });
-                fd.append("UUID", UUID);
-                fd.append("COMPANY", COMPANY);
-                fd.append("PK_NUMBER", pknumber);
-                fd.append("CURRENCY", currency);
-                fd.append("CONTRACT_NUMBER", contractnumber);
-                fd.append("ID", $("#ID").val());
-                fd.append("CREDIT_TYPE", wdtype);
-                fd.append("AMOUNT_PAID", amount);
-                fd.append("DATE_PAY", dttime);
-                fd.append("USERNAME", USERNAME);
-                fd.append("DOCDATE", docdate);
-                fd.append("FILENAME", FILENAME);
-                $.ajax({
-                    dataType: "JSON",
-                    type: "POST",
-                    url: "<?php echo site_url('Kmk/savePaymentReq'); ?>",
-                    data: fd,
-                    processData : false,
-                    contentType : false,
-                    cache : false,
-                    success: function (response) {
-                        $('#loader').removeClass('show');
-                        if (response.status == 200) {
-                            alert(response.result.data);
-                            $('#ReceiveModal').modal('hide');
-                            $('#ReceiveModal').on('hidden.bs.modal', function(e) {
-                            $(this).find('#FORMPAYMENT')[0].reset();
-                            });
-                            $('#FORMPAYMENT').parsley().reset();
-                            // $('.PAY').attr('disabled',true);
-                            $('#amount_modal').val('');
-                            table2.ajax.reload();
-                        } else if (response.status == 504) {
-                            alert(response.result.data);
-                            $('#ReceiveModal').modal('hide');
-                            $('#ReceiveModal').on('hidden.bs.modal', function(e) {
-                            $(this).find('#FORMPAYMENT')[0].reset();
-                            });
-                            $('#FORMPAYMENT').parsley().reset();
-                            $('#amount_modal').val('');
-                            table2.ajax.reload();
-                        } else {
-                            alert(response.result.data);
-                            $('#ReceiveModal').modal('hide');
-                            $('#ReceiveModal').on('hidden.bs.modal', function(e) {
-                            $(this).find('#FORMPAYMENT')[0].reset();
-                            });
-                            $('#FORMPAYMENT').parsley().reset();
-                            $('#amount_modal').val('');
-                        }
-                    },
-                    error: function (e) {
-                        $('#loader').removeClass('show');
-                        $('#ReceiveModal').modal('hide');
-                        $('#ReceiveModal').on('hidden.bs.modal', function(e) {
-                        $(this).find('#FORMPAYMENT')[0].reset();
-                        });
-                        $('#FORMPAYMENT').parsley().reset();
-                        // console.info(e);
-                        alert('Data Save Failed !!');
-                        table2.ajax.reload();
-                        $('#btnSave').removeAttr('disabled');
-                    }
-                });
-            }
-        }
-    });
-    $('body').on('click','#saveModalKMK',function(){
-        // console.log($('#mcurrency').val());
-        var dttime          = $('#MPERIODKMK').val();
-        var UUID            = $("#id").text();
-        var COMPANY         = $('#mcompany').text(); //$(this).attr('data-company');
-        var contractnumber  = $("#mcontractnumber").text();
-        var docdate         = $("#mdocdate").text();
-        var pknumber        = $("#mpknumber").text();
-        var wdtype          = $("#mwdtype").text();
-        var amount          = $('#FINAL_AMOUNT').val();
-        var currency        = $('#mcurrency').val();
-        var installment     = $('#AMOUNT_MODALKMK').val();
-        var interest        = $('#AMOUNT_INTERESTKMK').val();
-        var period          = $('#PERIOD').val();
-        var start_period    = $('#START_PERIOD').val();
-
-        var fileInput = $('#upload-payment-filekmk');
-        var extFile = $('#upload-payment-filekmk').val().split('.').pop().toUpperCase();
-        var maxSize = fileInput.data('max-size');
-        if($.inArray(extFile, filetypeUpload) === -1) {
+    function setFiles(elm) {
+        var extFile = $('.upload-file').val().split('.').pop().toUpperCase();
+        if ($.inArray(extFile, filetypeUpload) === -1) {
             toastr.error('Format file tidak valid');
             files = '';
-            $('#upload-payment-filekmk').val('');
+            $('.upload-file').val('');
+            $('#loader').removeClass('show');
             return;
         }
-        if(fileInput.get(0).files.length) {
-            var fileSize = fileInput.get(0).files[0].size;
-            if(fileSize > maxSize) {
-                toastr.error('Ukuran file terlalu besar');
+        files = elm.files ;
+        FILENAME = files[0].name;
+        $('#filename').html(FILENAME) ;
+    }
+
+    function UploadAttachment() {
+        console.log(files);
+        if($('#FORMUPLOAD').parsley().validate()) {
+            $('#loader').addClass('show');
+            $('#loader').show();
+            var extFile = $('.upload-file').val().split('.').pop().toUpperCase();
+            if ($.inArray(extFile, filetypeUpload) === -1) {
+                toastr.error('Format file tidak valid');
                 files = '';
-                $('#upload-payment-filekmk').val('');
+                $('.upload-file').val('');
+                $('#loader').removeClass('show');
                 return;
             }
-        }
-        if(amount == '' || amount == null){
-            toastr.error("Amount Cant Empty");
-        }else{
-            if($('#FORMPAYMENTKMK').parsley().validate()) {
-                $('#loader').addClass('show');
-                // table2.ajax.reload();
-                files = document.getElementById('upload-payment-filekmk').files;
-                // console.log(files);
-                var FILENAME = files[0].name;
-                var fd = new FormData();
-                $.each(files, function(i, data) {
-                    fd.append("userfile", data);
-                });
-                fd.append("COMPANY", COMPANY);
-                fd.append("PK_NUMBER", pknumber);
-                fd.append("CURRENCY", currency);
-                fd.append("CONTRACT_NUMBER", contractnumber);
-                fd.append("AMOUNT_PAID", amount);
-                fd.append("PAYMENT_DATE", dttime);
-                fd.append("USERNAME", USERNAME);
-                fd.append("DOCDATE", docdate);
-                fd.append("INSTALLMENT", installment);
-                fd.append("INTEREST", interest);
-                fd.append("PERIOD", period);
-                fd.append("START_PERIOD", start_period);
-                fd.append("FILENAME", FILENAME);
-                $.ajax({
-                    dataType: "JSON",
-                    type: "POST",
-                    // processData: false, 
-                    // contentType: false, 
-                    // cache: false,
-                    url: "<?php echo site_url('Kmk/savePaymentReqKMK'); ?>",
-                    data: fd,
-                    processData: false,
-                    contentType: false,
-                    success: function (response) {
+            FILENAME = files[0].name;
+            var fd = new FormData() ;
+            $.each(files, function (i, data) {
+                fd.append("userfile", data);
+            });
+            fd.append('DOCNUMBER', DOCNUMBER);
+            fd.append('DATE_PAY', DATE_PAY);
+            fd.append('USERNAME', USERNAME);
+            fd.append('BILVAL', $('#BILVAL').val());
+
+            // var fileName = $(this).val().split("\\").pop();
+            $.ajax({
+                dataType : 'JSON',
+                type: 'POST',
+                url:'<?php echo site_url('Kmk/UploadPaymentBillKMKKI')?>',
+                data : fd,
+                processData: false,
+                contentType: false,
+                success : function(response) {
+                    if(response.status == 200) {
                         $('#loader').removeClass('show');
-                        if (response.status == 200) {
-                            alert(response.result.data.MESSAGE);
-                            $('#ReceiveModalKMK').modal('hide');
-                            $('#ReceiveModalKMK').on('hidden.bs.modal', function(e) {
-                            $(this).find('#FORMPAYMENTKMK')[0].reset();
-                            });
-                            $('#FORMPAYMENTKMK').parsley().reset();
-                            // $('.PAY').attr('disabled',true);
-                            $('#amount_modal').val('');
-                            table2.ajax.reload();
-                        } else if (response.status == 504) {
-                            alert(response.result.data.MESSAGE);
-                            $('#ReceiveModal').modal('hide');
-                            $('#ReceiveModal').on('hidden.bs.modal', function(e) {
-                            $(this).find('#FORMPAYMENT')[0].reset();
-                            });
-                            $('#FORMPAYMENT').parsley().reset();
-                            $('#amount_modal').val('');
-                            table2.ajax.reload();
-                        } else {
-                            alert(response.result.data.MESSAGE);
-                            $('#ReceiveModal').modal('hide');
-                            $('#ReceiveModal').on('hidden.bs.modal', function(e) {
-                            $(this).find('#FORMPAYMENT')[0].reset();
-                            });
-                            $('#FORMPAYMENT').parsley().reset();
-                            $('#amount_modal').val('');
-                        }
-                    },
-                    error: function (e) {
-                        $('#loader').removeClass('show');
-                        $('#ReceiveModal').modal('hide');
-                        $('#ReceiveModal').on('hidden.bs.modal', function(e) {
-                        $(this).find('#FORMPAYMENT')[0].reset();
-                        });
-                        $('#FORMPAYMENT').parsley().reset();
-                        // console.info(e);
-                        alert('Data Save Failed !!');
-                        table2.ajax.reload();
-                        $('#btnSave').removeAttr('disabled');
+                        $('#loader').hide();
+                        $('#FORMUPLOAD').parsley().reset();
+                        toastr.success(response.result.data) ;
+                        $('#filename').html(FILENAME) ;
                     }
-                });
-            }
+                    else if (response.status == 500){
+                        $('#loader').removeClass('show');
+                        $('#loader').hide();
+                        $('#FORMUPLOAD').parsley().reset();
+                        toastr.error(response.result.data);
+                    }
+                    $('#UploadAttachment').modal('hide');
+                    table.ajax.reload();
+                },
+                error : function(e) {
+                    console.log(e);
+                    $('#loader').removeClass('show');
+                    $('#loader').hide();
+                    $('#FORMUPLOAD').parsley().reset();
+                    toastr.error('Error');
+                }
+            })
         }
-    });
-
+    }
     
-
+    $('#DOWNLOAD').on('click', function() {
+        window.open("<?php echo 'http://10.10.10.94:8080/assets/file/'?>" +FILENAME,'_blank');
+    })
     var searchLeasing = function () {
         // if ($('#DOCDATE').val() == '' || $('#DOCNUMBER').val() == '' || $('#DOCDATE').val() == null || $('#DOCNUMBER').val() == null) {
         //     alert("'cannot be empty!")
@@ -781,56 +358,40 @@
         LoadDataTable();
     }
 
-    var EasyUpdatePeriod = function() {
-        var COMPANY = $('#mcompany').text();
-        var PERIOD = $('#NEXT_PERIOD').val();
-        $('#loader').addClass('show');
-        $.ajax({
-            dataType:"JSON",
-            type:'POST',
-            url : "<?php echo site_url("Kmk/easyUpdatePeriodControl")?>",
-            data : {
-                "PERIOD" : PERIOD,
-                "COMPANY" : COMPANY
-            },
-            success : function (response) {
-                var data = response.result.data ;
-                var status = response.status ;
-                
-                if(status == 200) {
-                    $('#ReceiveModal').modal('hide');
-                    toastr.success('Period Change') ;
-                }
-                else if(status == 500) {
-                    $('#ReceiveModal').modal('hide');
-                    toastr.error('Error');
-                }
-                $('#loader').removeClass('show');
-            },
-            error : function(err) {
-                $('#ReceiveModal').modal('hide');
-                console.error(err);
-            }
-        })
-    }
+    $(".custom-file-input").on("change", function() {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
 
     $('#COMPANY').on({
         'change': function () {
             // MONTH = ListBulan.indexOf(this.value.substr(0, 3)) + 1;
             // YEAR = this.value.substr(4, 4);
             // COMPANY = $(this).val();
-            table2 = $('#DtLeasingCompletion').DataTable();
-            table2.ajax.reload();
+            table = $('#DtPaymentReq').DataTable();
+            table.ajax.reload();
             // LoadDataTable();
         }
     });
+
+    $('#PERIOD').on({
+        'change': function () {
+            // MONTH = ListBulan.indexOf(this.value.substr(0, 3)) + 1;
+            // YEAR = this.value.substr(4, 4);
+            // COMPANY = $(this).val();
+            table = $('#DtPaymentReq').DataTable();
+            table.ajax.reload();
+            // LoadDataTable();
+        }
+    });
+
     $('#CREDIT_TYPE').on({
         'change': function () {
             // MONTH = ListBulan.indexOf(this.value.substr(0, 3)) + 1;
             // YEAR = this.value.substr(4, 4);
             // COMPANY = $(this).val();
-            table2 = $('#DtLeasingCompletion').DataTable();
-            table2.ajax.reload();
+            table = $('#DtPaymentReq').DataTable();
+            table.ajax.reload();
             // LoadDataTable();
         }
     });
@@ -848,7 +409,7 @@
     //         toastr.error("Amount Cant Empty");
     //     }else{
     //         $('#loader').addClass('show');
-    //         // table2.ajax.reload();
+    //         // table.ajax.reload();
     //         $.ajax({
     //             dataType: "JSON",
     //             type: "POST",
