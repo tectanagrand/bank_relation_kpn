@@ -609,230 +609,241 @@ class PayReqKMKKIModel extends BaseModel {
     //Update 1.5
         public function ShowDataForecast ($param) {
             $q = "SELECT *
-                    FROM (SELECT FM.UUID,
-                                C.COMPANYCODE,
-                                C.ID AS COMPANY,
-                                CASE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA'
-                                    THEN
-                                    FDW.CONTRACT_NUMBER
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP'
-                                    THEN
-                                    FDW.CONTRACT_NUMBER
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR'
-                                    THEN
-                                    FDW.CONTRACT_NUMBER
-                                    WHEN FM.SUB_CREDIT_TYPE = 'BD'
-                                    THEN
-                                    FDR.CONTRACT_NUMBER
-                                    WHEN FM.SUB_CREDIT_TYPE = 'RK'
-                                    THEN
-                                    FDR.CONTRACT_NUMBER
-                                    WHEN FM.SUB_CREDIT_TYPE = 'TL'
-                                    THEN
-                                    FDR.CONTRACT_NUMBER
-                                    ELSE
-                                    FDK.CONTRACT_NUMBER
-                                END
-                                    AS CONTRACT_NUMBER,
-                                FM.PK_NUMBER,
-                                FM.CREDIT_TYPE,
-                                -- FM.SUB_CREDIT_TYPE,
-                                CASE
-                                    WHEN FDW.SUB_CREDIT_TYPE IS NOT NULL
-                                    THEN
-                                    FDW.SUB_CREDIT_TYPE
-                                    ELSE
-                                    FM.SUB_CREDIT_TYPE
-                                END
-                                    AS SUB_CREDIT_TYPE,
-                                CASE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.DOCDATE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.DOCDATE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.DOCDATE
-                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.DOCDATE
-                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.DOCDATE
-                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.DOCDATE
-                                    ELSE FDK.DOCDATE
-                                END
-                                    AS DOCDATE,
-                                CASE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.INTEREST
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.INTEREST
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.INTEREST
-                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.INTEREST
-                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.INTEREST
-                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.INTEREST
-                                    ELSE FDK.INTEREST
-                                END
-                                    AS INTEREST_RATE,
-                                CASE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.CURRENCY
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.CURRENCY
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.CURRENCY
-                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.CURRENCY
-                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.CURRENCY
-                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.CURRENCY
-                                    ELSE FDK.CURRENCY
-                                END
-                                    AS CURRENCY,
-                                CASE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA'
-                                    THEN
-                                    FDW.AMOUNT_LIMIT
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP'
-                                    THEN
-                                    FDW.AMOUNT_LIMIT
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR'
-                                    THEN
-                                    FDW.AMOUNT_LIMIT
-                                    WHEN FM.SUB_CREDIT_TYPE = 'BD'
-                                    THEN
-                                    FDR.AMOUNT_LIMIT
-                                    WHEN FM.SUB_CREDIT_TYPE = 'RK'
-                                    THEN
-                                    FDR.AMOUNT_LIMIT
-                                    WHEN FM.SUB_CREDIT_TYPE = 'TL'
-                                    THEN
-                                    FDR.AMOUNT_LIMIT
-                                    ELSE
-                                    FDK.AMOUNT_LIMIT
-                                END
-                                    AS AMOUNT_LIMIT,
-                                CASE
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.TOTALWD
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.TOTALWD
-                                    WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.TOTALWD
-                                    WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.TOTALWD
-                                    WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.TOTALWD
-                                    WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.TOTALWD
-                                    ELSE FDK.TOTALWD
-                                END
-                                    AS TOTALWD,
-                                COALESCE(FP.INSTALLMENT, 0) AS INSTALLMENT,
-                                COALESCE(FP.IDC_INSTALLMENT,0) AS IDC_INSTALLMENT,
-                                COALESCE(FP.INTEREST, 0) AS INTEREST,
-                                COALESCE(FP.IDC_INTEREST,0) AS IDC_INTEREST,
-                                FP.DATE_FORECAST,
-                                FP.PERIOD_MONTH AS MONTH,
-                                FP.PERIOD_YEAR AS YEAR,
-                                FP.IS_PAYMENT,
-                                FP.ID
-                            FROM FUNDS_MASTER FM
-                                LEFT JOIN COMPANY C ON C.ID = FM.COMPANY
-                                LEFT JOIN BANK B ON B.FCCODE = FM.BANK
+            FROM (SELECT FM.UUID,
+                        C.COMPANYCODE,
+                        C.ID AS COMPANY,
+                        CASE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'WA'
+                            THEN
+                            FDW.CONTRACT_NUMBER
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP'
+                            THEN
+                            FDW.CONTRACT_NUMBER
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR'
+                            THEN
+                            FDW.CONTRACT_NUMBER
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD'
+                            THEN
+                            FDR.CONTRACT_NUMBER
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK'
+                            THEN
+                            FDR.CONTRACT_NUMBER
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL'
+                            THEN
+                            FDR.CONTRACT_NUMBER
+                            ELSE
+                            FDK.CONTRACT_NUMBER
+                        END
+                            AS CONTRACT_NUMBER,
+                        FM.PK_NUMBER,
+                        FM.CREDIT_TYPE,
+                        -- FM.SUB_CREDIT_TYPE,
+                        CASE
+                            WHEN FDW.SUB_CREDIT_TYPE IS NOT NULL
+                            THEN
+                            FDW.SUB_CREDIT_TYPE
+                            ELSE
+                            FM.SUB_CREDIT_TYPE
+                        END
+                            AS SUB_CREDIT_TYPE,
+                        CASE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.DOCDATE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.DOCDATE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.DOCDATE
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.DOCDATE
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.DOCDATE
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.DOCDATE
+                            ELSE FDK.DOCDATE
+                        END
+                            AS DOCDATE,
+                        CASE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.INTEREST
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.INTEREST
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.INTEREST
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.INTEREST
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.INTEREST
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.INTEREST
+                            ELSE FDK.INTEREST
+                        END
+                            AS INTEREST_RATE,
+                        CASE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.CURRENCY
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.CURRENCY
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.CURRENCY
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.CURRENCY
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.CURRENCY
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.CURRENCY
+                            ELSE FDK.CURRENCY
+                        END
+                            AS CURRENCY,
+                        CASE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'WA'
+                            THEN
+                            FDW.AMOUNT_LIMIT
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP'
+                            THEN
+                            FDW.AMOUNT_LIMIT
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR'
+                            THEN
+                            FDW.AMOUNT_LIMIT
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD'
+                            THEN
+                            FDR.AMOUNT_LIMIT
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK'
+                            THEN
+                            FDR.AMOUNT_LIMIT
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL'
+                            THEN
+                            FDR.AMOUNT_LIMIT
+                            ELSE
+                            FDK.AMOUNT_LIMIT
+                        END
+                            AS AMOUNT_LIMIT,
+                        CASE
+                            WHEN FDW.SUB_CREDIT_TYPE = 'WA' THEN FDW.TOTALWD
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AP' THEN FDW.TOTALWD
+                            WHEN FDW.SUB_CREDIT_TYPE = 'KMK_SCF_AR' THEN FDW.TOTALWD
+                            WHEN FM.SUB_CREDIT_TYPE = 'BD' THEN FDR.TOTALWD
+                            WHEN FM.SUB_CREDIT_TYPE = 'RK' THEN FDR.TOTALWD
+                            WHEN FM.SUB_CREDIT_TYPE = 'TL' THEN FDR.TOTALWD
+                            ELSE FDK.TOTALWD
+                        END
+                            AS TOTALWD,
+                        COALESCE(FP.INSTALLMENT, 0) AS INSTALLMENT,
+                        COALESCE(FP.IDC_INSTALLMENT,0) AS IDC_INSTALLMENT,
+                        COALESCE(FP.INTEREST, 0) AS INTEREST,
+                        COALESCE(FP.IDC_INTEREST,0) AS IDC_INTEREST,
+                        FP.DATE_FORECAST,
+                        FP.PERIOD_MONTH AS MONTH,
+                        FP.PERIOD_YEAR AS YEAR,
+                        LAT_PER.LAT_PM,
+                        LAT_PER.LAT_PY,
+                        FP.IS_PAYMENT,
+                        FP.ID
+                    FROM FUNDS_MASTER FM
+                        LEFT JOIN COMPANY C ON C.ID = FM.COMPANY
+                        LEFT JOIN BANK B ON B.FCCODE = FM.BANK
+                        LEFT JOIN
+                        (SELECT FA.UUID,
+                                FA.SUB_CREDIT_TYPE,
+                                TO_CHAR (FA.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
+                                FA.INTEREST,
+                                FA.CURRENCY,
+                                FA.AMOUNT_LIMIT,
+                                FA.CONTRACT_NUMBER,
+                                FW.TOTALWD
+                            FROM FUNDS_DETAIL_WA FA
                                 LEFT JOIN
-                                (SELECT FA.UUID,
-                                        FA.SUB_CREDIT_TYPE,
-                                        TO_CHAR (FA.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
-                                        FA.INTEREST,
-                                        FA.CURRENCY,
-                                        FA.AMOUNT_LIMIT,
-                                        FA.CONTRACT_NUMBER,
-                                        FW.TOTALWD
-                                    FROM FUNDS_DETAIL_WA FA
-                                        LEFT JOIN
-                                        (SELECT *
-                                            FROM (  SELECT UUID, SUM (AMOUNT) TOTALWD, WD_TYPE
-                                                    FROM FUNDS_WITHDRAW
-                                                    WHERE STATUS = '1'
-                                                GROUP BY UUID, WD_TYPE)) FW
-                                            ON (    FA.UUID = FW.UUID
-                                                AND FW.WD_TYPE = FA.SUB_CREDIT_TYPE)
-                                WHERE     FA.IS_ACC = '1'
-                                        AND FA.ISACTIVE = '1'
-                                        AND FW.TOTALWD > 0) FDW
-                                    ON FDW.UUID = FM.UUID
-                                LEFT JOIN
-                                (SELECT DISTINCT
-                                        FR.UUID,
-                                        FR.SUB_CREDIT_TYPE,
-                                        TO_CHAR (FR.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
-                                        FR.INTEREST,
-                                        FR.CURRENCY,
-                                        FR.AMOUNT_LIMIT,
-                                        FR.CONTRACT_NUMBER,
-                                        FW.TOTALWD
-                                    FROM FUNDS_DETAIL_RK FR
-                                        LEFT JOIN (  SELECT UUID, SUM (AMOUNT) TOTALWD, WD_TYPE
-                                                        FROM FUNDS_WITHDRAW
-                                                    WHERE STATUS = '1'
-                                                    GROUP BY UUID, WD_TYPE) FW
-                                            ON (    FR.UUID = FW.UUID
-                                                AND FW.WD_TYPE = FR.SUB_CREDIT_TYPE)
-                                WHERE     FR.IS_ACC = '1'
-                                        AND FR.ISACTIVE = '1'
-                                        AND FW.TOTALWD > 0) FDR
-                                    ON FDR.UUID = FM.UUID
-                                LEFT JOIN
-                                (SELECT FR.UUID,
-                                        FM.CREDIT_TYPE,
-                                        TO_CHAR (FR.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
-                                        FR.INTEREST,
-                                        FDR.CURRENCY,
-                                        FDR.AMOUNT_LIMIT,
-                                        FDR.CONTRACT_NUMBER,
-                                        FW.TOTALWD
-                                    FROM FUNDS_DETAIL_KI FR
-                                        LEFT JOIN
-                                        (SELECT UUID,
-                                                LIMIT_TRANCHE AMOUNT_LIMIT,
-                                                CONTRACT_NUMBER AS CONTRACT_NUMBER,
-                                                TRANCHE_NUMBER,
-                                                CURRENCY
-                                            FROM FUNDS_DETAIL_KI_TRANCHE
-                                        WHERE     ISACTIVE = '1'
-                                                AND IS_ACC = '1'
-                                                AND IS_COMPLETE IS NULL) FDR
-                                            ON FR.UUID = FDR.UUID
-                                        LEFT JOIN
-                                        (  SELECT UUID, SUM (DDOWN_AMT) TOTALWD, TRANCHE_NUMBER
-                                            FROM FUNDS_WD_KI_TRANCHE
+                                (SELECT *
+                                    FROM (  SELECT UUID, SUM (AMOUNT) TOTALWD, WD_TYPE
+                                            FROM FUNDS_WITHDRAW
                                             WHERE STATUS = '1'
-                                        GROUP BY UUID, TRANCHE_NUMBER) FW
-                                            ON (    FR.UUID = FW.UUID
-                                                AND FDR.TRANCHE_NUMBER = FW.TRANCHE_NUMBER)
-                                        LEFT JOIN (SELECT UUID, CREDIT_TYPE
-                                                    FROM FUNDS_MASTER
-                                                    WHERE ISACTIVE = '1' AND IS_ACC = '1') FM
-                                            ON FM.UUID = FR.UUID
-                                WHERE     FR.IS_ACC = '1'
-                                        AND FR.ISACTIVE = '1'
-                                        AND FW.TOTALWD > 0) FDK
-                                    ON FDK.UUID = FM.UUID
+                                        GROUP BY UUID, WD_TYPE)) FW
+                                    ON (    FA.UUID = FW.UUID
+                                        AND FW.WD_TYPE = FA.SUB_CREDIT_TYPE)
+                        WHERE     FA.IS_ACC = '1'
+                                AND FA.ISACTIVE = '1'
+                                AND FW.TOTALWD > 0) FDW
+                            ON FDW.UUID = FM.UUID
+                        LEFT JOIN
+                        (SELECT DISTINCT
+                                FR.UUID,
+                                FR.SUB_CREDIT_TYPE,
+                                TO_CHAR (FR.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
+                                FR.INTEREST,
+                                FR.CURRENCY,
+                                FR.AMOUNT_LIMIT,
+                                FR.CONTRACT_NUMBER,
+                                FW.TOTALWD
+                            FROM FUNDS_DETAIL_RK FR
+                                LEFT JOIN (  SELECT UUID, SUM (AMOUNT) TOTALWD, WD_TYPE
+                                                FROM FUNDS_WITHDRAW
+                                            WHERE STATUS = '1'
+                                            GROUP BY UUID, WD_TYPE) FW
+                                    ON (    FR.UUID = FW.UUID
+                                        AND FW.WD_TYPE = FR.SUB_CREDIT_TYPE)
+                        WHERE     FR.IS_ACC = '1'
+                                AND FR.ISACTIVE = '1'
+                                AND FW.TOTALWD > 0) FDR
+                            ON FDR.UUID = FM.UUID
+                        LEFT JOIN
+                        (SELECT FR.UUID,
+                                FM.CREDIT_TYPE,
+                                TO_CHAR (FR.DOCDATE, 'yyyy-mm-dd') AS DOCDATE,
+                                FR.INTEREST,
+                                FDR.CURRENCY,
+                                FDR.AMOUNT_LIMIT,
+                                FDR.CONTRACT_NUMBER,
+                                FW.TOTALWD
+                            FROM FUNDS_DETAIL_KI FR
                                 LEFT JOIN
-                                (  SELECT 
-                                        FP.ID,
-                                        FP.INSTALLMENT,
-                                        FP.IDC_INSTALLMENT,
-                                        FP.INTEREST,
-                                        FP.IDC_INTEREST,
-                                        FP.IS_PAYMENT,
-                                        FP.CONTRACT_NUMBER,
-                                        TO_CHAR (START_PERIOD, 'YYYY-MM-DD') AS START_PERIOD_C,
-                                        TO_CHAR (END_PERIOD, 'YYYY-MM-DD') AS END_PERIOD_C,
-                                        TO_CHAR (PAYMENT_DATE, 'MM/DD/YYYY') AS PAYMENT_DATE_C,
-                                        TO_CHAR (END_PERIOD, 'MM-DD-YYYY') AS DATE_FORECAST,
-                                        FPC.CURRENTACCOUNTINGYEAR,
-                                        FPC.CURRENTACCOUNTINGPERIOD,
-                                        FP.PERIOD_YEAR,
-                                        FP.PERIOD_MONTH,
-                                        FDKIT.CURRENCY
-                                    FROM FUNDSPAYMENT FP
-                                        LEFT JOIN FUNDS_PERIODCONTROL FPC
-                                            ON FPC.COMPANY = FP.COMPANY
-                                        LEFT JOIN FUNDS_MASTER FM
-                                            ON FP.PK_NUMBER = FM.PK_NUMBER
-                                        LEFT JOIN FUNDS_DETAIL_KI_TRANCHE FDKIT
-                                            ON     FDKIT.UUID = FM.UUID
-                                                AND FP.CONTRACT_NUMBER = FDKIT.CONTRACT_NUMBER
-                                                AND FDKIT.ISACTIVE = 1
-                                    WHERE     PERIOD_MONTH = FPC.CURRENTACCOUNTINGPERIOD
-                                        AND PERIOD_YEAR = FPC.CURRENTACCOUNTINGYEAR
-                                ORDER BY PERIOD ASC NULLS FIRST) FP
-                                    ON (FP.CONTRACT_NUMBER = FDK.CONTRACT_NUMBER OR FP.CONTRACT_NUMBER = FDR.CONTRACT_NUMBER OR FP.CONTRACT_NUMBER = FDW.CONTRACT_NUMBER)
-                        WHERE FM.IS_ACC = '1' AND FM.ISACTIVE = '1')
-                WHERE TOTALWD > 0" ;
+                                (SELECT UUID,
+                                        LIMIT_TRANCHE AMOUNT_LIMIT,
+                                        CONTRACT_NUMBER AS CONTRACT_NUMBER,
+                                        TRANCHE_NUMBER,
+                                        CURRENCY
+                                    FROM FUNDS_DETAIL_KI_TRANCHE
+                                WHERE     ISACTIVE = '1'
+                                        AND IS_ACC = '1'
+                                        AND IS_COMPLETE IS NULL) FDR
+                                    ON FR.UUID = FDR.UUID
+                                LEFT JOIN
+                                (  SELECT UUID, SUM (DDOWN_AMT) TOTALWD, TRANCHE_NUMBER
+                                    FROM FUNDS_WD_KI_TRANCHE
+                                    WHERE STATUS = '1'
+                                GROUP BY UUID, TRANCHE_NUMBER) FW
+                                    ON (    FR.UUID = FW.UUID
+                                        AND FDR.TRANCHE_NUMBER = FW.TRANCHE_NUMBER)
+                                LEFT JOIN (SELECT UUID, CREDIT_TYPE
+                                            FROM FUNDS_MASTER
+                                            WHERE ISACTIVE = '1' AND IS_ACC = '1') FM
+                                    ON FM.UUID = FR.UUID
+                        WHERE     FR.IS_ACC = '1'
+                                AND FR.ISACTIVE = '1'
+                                AND FW.TOTALWD > 0) FDK
+                            ON FDK.UUID = FM.UUID
+                        LEFT JOIN
+                        (  SELECT 
+                                FP.ID,
+                                FP.INSTALLMENT,
+                                FP.IDC_INSTALLMENT,
+                                FP.INTEREST,
+                                FP.IDC_INTEREST,
+                                FP.IS_PAYMENT,
+                                FP.CONTRACT_NUMBER,
+                                TO_CHAR (START_PERIOD, 'YYYY-MM-DD') AS START_PERIOD_C,
+                                TO_CHAR (END_PERIOD, 'YYYY-MM-DD') AS END_PERIOD_C,
+                                TO_CHAR (PAYMENT_DATE, 'MM/DD/YYYY') AS PAYMENT_DATE_C,
+                                TO_CHAR (END_PERIOD, 'MM-DD-YYYY') AS DATE_FORECAST,
+                                FPC.CURRENTACCOUNTINGYEAR,
+                                FPC.CURRENTACCOUNTINGPERIOD,
+                                FP.PERIOD_YEAR,
+                                FP.PERIOD_MONTH,
+                                FDKIT.CURRENCY
+                            FROM FUNDSPAYMENT FP
+                                LEFT JOIN FUNDS_PERIODCONTROL FPC
+                                    ON FPC.COMPANY = FP.COMPANY
+                                LEFT JOIN FUNDS_MASTER FM
+                                    ON FP.PK_NUMBER = FM.PK_NUMBER
+                                LEFT JOIN FUNDS_DETAIL_KI_TRANCHE FDKIT
+                                    ON     FDKIT.UUID = FM.UUID
+                                        AND FP.CONTRACT_NUMBER = FDKIT.CONTRACT_NUMBER
+                                        AND FDKIT.ISACTIVE = 1
+                            WHERE     PERIOD_MONTH = FPC.CURRENTACCOUNTINGPERIOD
+                                AND PERIOD_YEAR = FPC.CURRENTACCOUNTINGYEAR
+                        ORDER BY PERIOD ASC NULLS FIRST) FP
+                            ON (FP.CONTRACT_NUMBER = FDK.CONTRACT_NUMBER OR FP.CONTRACT_NUMBER = FDR.CONTRACT_NUMBER OR FP.CONTRACT_NUMBER = FDW.CONTRACT_NUMBER)
+                        LEFT JOIN
+                        (SELECT PERIOD_MONTH AS LAT_PM, PERIOD_YEAR AS LAT_PY, FP.CONTRACT_NUMBER
+                        FROM FUNDSPAYMENT FP
+                                LEFT JOIN (  SELECT MIN (PERIOD) AS max_per, CONTRACT_NUMBER
+                                            FROM FUNDSPAYMENT WHERE IS_PAYMENT IS NULL
+                                        GROUP BY CONTRACT_NUMBER) LAT_PER
+                                ON LAT_PER.CONTRACT_NUMBER = FP.CONTRACT_NUMBER
+                        WHERE FP.PERIOD = LAT_PER.max_per) LAT_PER
+                        ON (LAT_PER.CONTRACT_NUMBER = FDK.CONTRACT_NUMBER OR LAT_PER.CONTRACT_NUMBER = FDR.CONTRACT_NUMBER OR LAT_PER.CONTRACT_NUMBER = FDW.CONTRACT_NUMBER)
+                WHERE FM.IS_ACC = '1' AND FM.ISACTIVE = '1')
+        WHERE TOTALWD > 0 AND LAT_PM IS NOT NULL AND LAT_PY IS NOT NULL" ;
 
                 if($param['COMPANY'] != '0') {
                     $q .= "AND COMPANY = '".$param['COMPANY']."'" ;
@@ -842,6 +853,7 @@ class PayReqKMKKIModel extends BaseModel {
                 }
 
             $result = $this->db->query($q)->result();
+            // var_dump($this->db->last_query()); exit;
             return $result ;
         }
     

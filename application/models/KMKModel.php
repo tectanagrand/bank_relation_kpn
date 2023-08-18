@@ -447,8 +447,8 @@ class KMKModel extends BaseModel {
                             "COMPANY" => $getDetails->COMPANY,
                             "BUSINESSUNIT" => $getDetails->BUNIT,
                             "DOCNUMBER" => $getDetails->PK_NUMBER,
-                            "DOCTYPE" => $getDetails->CREDIT_TYPE,
-                            "VENDOR" => $getDetails->VENDOR,
+                            "DOCTYPE" => "KMK_ACTUAL",
+                            "VENDOR" => $getDetails->BANK,
                             "CURRENCY" => $getDetails->CURRENCY,
                             "EXTSYS" => 'SAPHANA',
                             "VAT" => "",
@@ -891,7 +891,7 @@ class KMKModel extends BaseModel {
                     $codeTranche = "A";
                 }
                 
-                $getBank         = $this->db->get_where('BANK',['FCCODE' => $getMaster->BANK ])->row();
+                $getBank         = $this->db->get_where('SUPPLIER',['ID' => $getMaster->BANK ])->row();
                 $BIC = $getBank->BIC;
                 
                 $genid  = Date('y').$comp.$code.$BIC.$codeTranche.$jenisIDC.$qgenid;
@@ -2584,7 +2584,7 @@ class KMKModel extends BaseModel {
         LEFT JOIN FUNDS_DETAIL_KI FKI ON FKI.UUID = FW.UUID AND FKI.ISACTIVE = 1
         LEFT JOIN COMPANY C ON C.ID = FM.COMPANY
         LEFT JOIN BANK B ON B.FCCODE = FM.BANK 
-        WHERE FM.ISACTIVE = 1
+        WHERE FM.ISACTIVE = '1'
         ORDER BY FW.ID DESC";
         $result = $this->db->query($q)->result();
         // var_dump($this->db->last_query());exit();
@@ -5968,6 +5968,182 @@ FETCH FIRST 1 ROWS ONLY) AS LIMIT_WA,
 
     //^ ^ ^
 
+    public function CreateForecastDtKMKRK ($param, $location) {
+        /*param contain:
+            [UUID]
+        */
+        ini_set('display_errors', 'On');
+        try {
+            $this->db->trans_begin();
+            $dataKMKq = $this->db
+            ->query("SELECT TO_CHAR(FRK.DOCDATE, 'fmmm/fmdd/yyyy') AS DOCDATE, 
+                        TO_CHAR(FRK.MATURITY_DATE, 'fmmm/fmdd/yyyy') AS MATURITY_DATE,
+                        TO_CHAR(FRK.MATURITY_DATE, 'yyyy/fmmm/fmdd') AS END_CTRCT,
+                        INTEREST_PAYMENT_SCHEDULE_DATE,
+                        INTEREST_PAYMENT_SCHEDULE, 
+                        AMOUNT_LIMIT, 
+                        INTEREST,
+                        FM.PK_NUMBER,
+                        FRK.CONTRACT_NUMBER,
+                        FM.COMPANY 
+                            FROM FUNDS_DETAIL_RK FRK 
+                            LEFT JOIN FUNDS_MASTER FM ON FM.UUID = FRK.UUID
+                                WHERE FRK.UUID = '{$param['UUID']}'")->row();
+            // var_dump($dataKMKq); exit;
+            $STARTDATE = explode('/', $dataKMKq->DOCDATE) ;
+            $ENDDATE = $dataKMKq->MATURITY_DATE ;
+            $PAYDATE = intval($dataKMKq->INTEREST_PAYMENT_SCHEDULE_DATE);
+            $LIMIT = intval($dataKMKq->AMOUNT_LIMIT);
+            $INTEREST = floatval($dataKMKq->INTEREST) ;
+            $startYear = intval($STARTDATE[2]);
+            $startMonth = intval($STARTDATE[0]);
+            $startDay = intval($STARTDATE[1]);
+            $endYear = $startYear ;
+            $endMonth = $startMonth ;
+            $endDay = $startDay ;
+            $period = 1 ;
+            $interest = 0 ;
+            $EXIST = false ;
+            $onRange = true ;
+            $onPay = false ;
+            $INSERT_TO_FP = false ;
+            $startPeriodPay = '';
+            $maturity_date_par = DateTime::createFromFormat('Y/m/d', $dataKMKq->END_CTRCT) ;
+            //data input 
+            $dt = [
+                'CONTRACT_NUMBER' => $dataKMKq->CONTRACT_NUMBER,
+                'PK_NUMBER' => $dataKMKq->PK_NUMBER,
+                'COMPANY' => $dataKMKq->COMPANY,
+                'CREDIT_TYPE' => 'KMK',
+                'FCENTRY' => $this->session->userdata('FCCODE'),
+                'FCIP' => $location,
+                'PERIOD_MONTH' => $endMonth,
+                'PERIOD_YEAR' => $endYear,
+                'PERIOD' => $period,
+                'INTEREST' => 0,
+                'GID'   => 0,
+                'UUID' => $param['UUID']
+            ] ;
+            // echo "<pre>";
+            while($onRange) {
+                $result = true ;
+                if(intval($startDay) < $PAYDATE) {
+                    $endDay = $PAYDATE ;
+                    $endMonth = $startMonth ;
+                    $endYear = $startYear;
+        
+                    if($endMonth == 2 && $endDay > 28) {
+                        $lastdaythatyear = new DateTime("last day of $endYear-2");
+                        $endDay = $lastdaythatyear->format('d');
+                    }
+                    else if ($endDay > 30) {
+                        $lastdatethatmonth = new DateTime("last day of $endYear-$endMonth");
+                        $endDay = $lastdatethatmonth->format('d');
+                    }
+
+                    $onPay = true ;
+                } else {
+                    $endDay = 1 ;
+                    $endMonth = $startMonth + 1 ;
+                    $endYear = $startYear ;
+                    if($endMonth > 12) {
+                        $endMonth = 1 ;
+                        $endYear = $startYear + 1;
+                    }
+                    $onPay = false;
+                }
+                $start_period = $startYear.'/'.$startMonth.'/'.$startDay ;
+                $end_period =  $endYear.'/'.$endMonth.'/'.$endDay ;
+                
+                // var_dump($start_period, $end_period);
+                $start_period_par = DateTime::createFromFormat('Y/m/d', $start_period) ;
+                $end_period_par = DateTime::createFromFormat('Y/m/d', $end_period) ;
+                // var_dump($start_period_par, $end_period_par, $maturity_date_par);
+                if($end_period_par > $maturity_date_par) {
+                    $end_period_par = $maturity_date_par ;
+                    $end_period = $maturity_date_par->format('Y/m/d');
+                    // var_dump($end_period); exit;
+                    $splice_epr = explode('/', $end_period);
+                    $endYear = $splice_epr[0] ;
+                    $endMonth = $splice_epr[1] ;
+                    $endDay = $splice_epr[2] ;
+                    $onRange = false ;
+                    $onPay = true ;
+                }
+                // var_dump("$start_period - $end_period - $onPay");
+                $diffDay = date_diff($start_period_par, $end_period_par) ;
+                $day = $diffDay->d;
+                $interest = $LIMIT * $INTEREST / 100 * $day / 360 ;
+                $dt['INTEREST'] += $interest ;
+
+                $paymentq = "SELECT * FROM FUNDSPAYMENT WHERE UUID = '{$param['UUID']}' AND PERIOD = '{$period}' AND CONTRACT_NUMBER = '{$dt['CONTRACT_NUMBER']}'" ;
+                $payment = $this->db->query($paymentq)->row();
+                if($payment != null) {
+                    // var_dump('Exist');
+                    $dt['GID'] = $payment->GID;
+                    $EXIST = true;
+                    if($payment->IS_PAYMENT == '1') {
+                        $INSERT_TO_FP = false ;
+                    }
+                }
+                else {
+                    $INSERT_TO_FP = true ;
+                    $EXIST = false;
+                }
+                if($onPay && $INSERT_TO_FP) {
+                    $dt['PERIOD_MONTH'] = $endMonth ;
+                    $dt['PERIOD_YEAR'] = $endYear ;
+                    $dt['PERIOD'] = $period ;
+                    // var_dump("$startPeriodPay - $period") ; 
+                    $result = $this->db
+                                ->set('DOCDATE',  "TO_DATE('{$dataKMKq->DOCDATE}', 'mm/dd/yyyy')", false)
+                                ->set('START_PERIOD',  "TO_DATE('".$startPeriodPay."', 'yyyy/mm/dd')", false)
+                                ->set('END_PERIOD',"TO_DATE('".$end_period."', 'yyyy/mm/dd')", false)
+                                ->set('LASTUPDATE', 'SYSDATE',false) ;
+                    if(!$EXIST) {
+                        $dt['GID'] = $this->uuid->v4();
+                        $result = $result->set($dt)->insert('FUNDSPAYMENT');
+                    }
+                    else {
+                        $result = $result->set($dt)->where('GID', $dt['GID'])->update('FUNDSPAYMENT');
+                    }
+                    $dt['INTEREST'] = 0;
+                    $EXIST = false ;
+                }
+                else {
+                    $startPeriodPay = $start_period ;
+                    // var_dump($startPeriodPay);
+                }
+                if($startMonth < $endMonth || $startYear < $endYear) {
+                    $period++;
+                }
+                $startYear = $endYear ;
+                $startMonth = $endMonth ;
+                $startDay = $endDay ;
+                if(!$result) {
+                    throw new Exception('Error');
+                }
+            }
+
+            if($result) {
+                $this->db->trans_commit();
+                $return = [
+                    'STATUS' => TRUE
+                ] ;
+            }
+        } catch (Exception $ex) {
+            $this->db->trans_rollback();
+            $return = [
+                'STATUS' => FALSE,
+                'MESSAGE' => "Failed to Create Forecast"
+            ] ;
+        }   
+
+        return $return ;
+        
+    }
+
+    //^ ^ ^ Update Forecast Data KMK
     // public function resetMasterBank () {
     //     $this->db->trans_begin();
     //     $listLastBankq = "select distinct fm.bank, b.fcname from funds_master fm left join bank b on b.fccode = fm.bank where credit_type = 'KI' and isactive = 1" ;

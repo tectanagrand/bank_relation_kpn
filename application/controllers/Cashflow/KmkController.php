@@ -420,8 +420,15 @@ class KmkController extends BaseController {
                 'CONTRACT_NUMBER' => $return['CONTRACT_NUMBER'],
                 'UUID' => $param['UUID']
             ] ;
+            $parFRCS = [
+                'UUID' => $param['UUID']
+            ] ;
             $createTempReport = $this->ReportGenModel->SaveReportKMK($parSav, $this->GetIpAddress());
+            $createFRCST = $this->KMKModel->CreateForecastDtKMKRK($parFRCS, $this->GetIpAddress());
             // var_dump($createTempReport); exit;
+            if($createFRCST['STATUS'] == false) {
+                $return['MESSAGE'] .= " || " . $createFRCST['MESSAGE'] ;
+            }
             if ($return['STATUS'] == true) {
                 $this->resource = [
                     'status' => 200,
@@ -436,6 +443,29 @@ class KmkController extends BaseController {
                 'data' => $ex->getMessage()
             );
         }
+        $this->SendResponse();
+    }
+
+    public function TestForecastKMK() {
+        $par = [
+            'UUID' => '442b39bf-3650-4fac-af63-88d3604bd5d3'
+        ] ;
+
+        $result = $this->KMKModel->CreateForecastDtKMKRK($par, $this->GetIpAddress());
+
+        if($result['STATUS'] == FALSE) {
+            $this->resource = [
+                'status' => 500,
+                'data' => $result['MESSAGE']
+            ];
+        }
+        else {
+            $this->resource = [
+                'status' => 200,
+                'data' => 'SUCCESS'
+            ];
+        }
+
         $this->SendResponse();
     }
 

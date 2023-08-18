@@ -347,7 +347,10 @@
                             //     html += '<button class="btn btn-indigo btn-sm ReceiveModal" data-id="'+data.UUID+'" data-contractnumber="'+data.CONTRACT_NUMBER+'" data-pknumber="'+data.PK_NUMBER+'" data-company="'+data.COMPANY+'" data-wdtype="'+data.SUB_CREDIT_TYPE+'" data-currency="'+data.CURRENCY+'" data-docdate="'+data.DOCDATE+'"  id="ReceiveModals" title="Receive" data-toggle="modal" data-target="#ReceiveModal">Forecast</button>';
                             // }
                             if(row.IS_PAYMENT == 1) {
-                                html += '<button class="btn btn-primary btn-sm Forecast" data-id="'+data.UUID+'" data-contractnumber="'+data.CONTRACT_NUMBER+'" data-pknumber="'+data.PK_NUMBER+'" data-company="'+data.COMPANY+'" data-wdtype="'+data.SUB_CREDIT_TYPE+'" data-currency="'+data.CURRENCY+'" data-docdate="'+data.DOCDATE+'"  id="Forecast" title="Receive" disabled>Forecasted</button>'
+                                html += '<button class="btn btn-lime btn-sm Forecast" data-id="'+data.UUID+'" data-contractnumber="'+data.CONTRACT_NUMBER+'" data-pknumber="'+data.PK_NUMBER+'" data-company="'+data.COMPANY+'" data-wdtype="'+data.SUB_CREDIT_TYPE+'" data-currency="'+data.CURRENCY+'" data-docdate="'+data.DOCDATE+'"  id="Forecast" title="Receive">Forecasted</button>'
+                            }
+                            else if (row.ID == null) {
+                                html += '<button class="btn btn-yellow btn-sm Forecast" data-id="'+data.UUID+'" data-contractnumber="'+data.CONTRACT_NUMBER+'" data-pknumber="'+data.PK_NUMBER+'" data-company="'+data.COMPANY+'" data-wdtype="'+data.SUB_CREDIT_TYPE+'" data-currency="'+data.CURRENCY+'" data-docdate="'+data.DOCDATE+'"  id="Forecast" title="Receive">Not In Range</button>'
                             }
                             else {
                                 html += '<button class="btn btn-primary btn-sm Forecast" data-id="'+data.UUID+'" data-contractnumber="'+data.CONTRACT_NUMBER+'" data-pknumber="'+data.PK_NUMBER+'" data-company="'+data.COMPANY+'" data-wdtype="'+data.SUB_CREDIT_TYPE+'" data-currency="'+data.CURRENCY+'" data-docdate="'+data.DOCDATE+'"  id="Forecast" title="Receive">Forecast</button>'
@@ -361,7 +364,7 @@
                         "className": "text-center align-middle",
                         "orderable": false,
                         render: function (data, type, row, meta) {
-                            if(row.IS_PAYMENT == 1) {
+                            if(row.IS_PAYMENT == 1 || row.ID == null) {
                                 return '' ;
                             }
                             else {
@@ -510,36 +513,73 @@
         $("#loader").show();
         let tr = $(this).closest('tr') ;
         var data = table2.row(tr).data();
-        if(confirm(`Forecast ${data.CONTRACT_NUMBER} for Period : ${data.MONTH} - ${data.YEAR} ?`)){
-            $.ajax({
-                dataType : 'JSON',
-                type: 'POST',
-                url : "<?php echo site_url("Kmk/ForecastSingle")?>",
-                data : {
-                    'FRCST' : data,
-                    'USERNAME' : USERNAME,
-                },
-                success : function(response) {
-                    $('#loader').hide();
-                    var data = response.result.data ;
-                    if(response.status == 200) {
-                        toastr.success(data);
+        if(data.ID != null && data.IS_PAYMENT != 1) {
+            if(confirm(`Forecast ${data.CONTRACT_NUMBER} for Period : ${data.MONTH} - ${data.YEAR} ?`)){
+                $.ajax({
+                    dataType : 'JSON',
+                    type: 'POST',
+                    url : "<?php echo site_url("Kmk/ForecastSingle")?>",
+                    data : {
+                        'FRCST' : data,
+                        'USERNAME' : USERNAME,
+                    },
+                    success : function(response) {
+                        $('#loader').hide();
+                        var data = response.result.data ;
+                        if(response.status == 200) {
+                            toastr.success(data);
+                        }
+                        else {
+                            toastr.error(data);
+                        }
+                        table2.ajax.reload();
+                    },
+                    error : function(err) {
+                        $('#loader').hide();
+                        toastr.error('err');
+                        console.log(err);
+                        table2.ajax.reload();
                     }
-                    else {
-                        toastr.error(data);
-                    }
-                    table2.ajax.reload();
-                },
-                error : function(err) {
-                    $('#loader').hide();
-                    toastr.error('err');
-                    console.log(err);
-                    table2.ajax.reload();
-                }
-            });
+                });
+            }
+            else {
+                $('#loader').hide();
+            }
         }
         else {
-            $('#loader').hide();
+            if(confirm(`Move Period ${data.CONTRACT_NUMBER} To Period : ${data.LAT_PM} - ${data.LAT_PY} ?`)){
+                var PERIOD = `${data.LAT_PM}-${data.LAT_PY}` ;
+                $.ajax({
+                    dataType : 'JSON',
+                    type: 'POST',
+                    url : "<?php echo site_url("Kmk/easyUpdatePeriodControl")?>",
+                    data : {
+                        'PERIOD' : PERIOD,
+                        'COMPANY' : data.COMPANY
+                    },
+                    success : function(response) {
+                        $('#loader').hide();
+                        var data = response.result.data ;
+                        if(response.status == 200) {
+                            toastr.success(data);
+                        }
+                        else {
+                            toastr.error(data);
+                        }
+                        table2.ajax.reload();
+                    },
+                    error : function(err) {
+                        $('#loader').hide();
+                        toastr.error('err');
+                        console.log(err);
+                        table2.ajax.reload();
+                    }
+                })
+                
+            } 
+            else {
+                $('#loader').hide();
+            }
         }
    })
 
