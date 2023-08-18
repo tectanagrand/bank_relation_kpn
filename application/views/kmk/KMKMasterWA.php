@@ -1097,7 +1097,7 @@ foreach ($DtDepartment as $values) {
                         COMPANY: $('#COMPANY').val(),
                         PK_NUMBER: $('#PK_NUMBER').val(),
                         BUSINESSUNIT: $('#BUSINESSUNIT').val(),
-                        BANK: BANKCODE,
+                        BANK: $('#BANK').val(),
                         CREDIT_TYPE: $('#CREDIT_TYPE').val(),
                         SUB_CREDIT_TYPE: $('#SUB_CREDIT_TYPE').val(),
                         CONTRACT_REF: $('#REF_CON').val(),
@@ -1534,9 +1534,9 @@ foreach ($DtDepartment as $values) {
                                 });
                                 if (value.ISDEFAULT == "1") {
                                     DValue = CValue;
-                                    html += "<option value='" + CValue + "'>" + value.FCNAME + '  </option>';
+                                    html += "<option value='" + value.ID + "'>" + value.FCNAME + '  </option>';
                                 } else {
-                                    html += "<option value='" + CValue + "'>" + value.FCNAME + '</option>';
+                                    html += "<option value='" + value.ID + "'>" + value.FCNAME + '</option>';
                                 }
 
                             });

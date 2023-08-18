@@ -2775,3 +2775,28 @@ ERROR - 2023-08-18 11:49:00 --> 404 Page Not Found: Assets/plugins
 ERROR - 2023-08-18 11:51:29 --> 404 Page Not Found: Assets/plugins
 ERROR - 2023-08-18 11:52:12 --> 404 Page Not Found: Assets/plugins
 ERROR - 2023-08-18 11:53:00 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-18 12:03:27 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterWA.php 459
+ERROR - 2023-08-18 12:03:28 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-18 12:03:51 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterWA.php 221
+ERROR - 2023-08-18 12:03:51 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterWA.php 459
+ERROR - 2023-08-18 12:03:51 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-18 17:03:52 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1783
+ERROR - 2023-08-18 17:03:52 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1790
+ERROR - 2023-08-18 17:03:52 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1797
+ERROR - 2023-08-18 17:03:52 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1804
+ERROR - 2023-08-18 17:03:52 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1811
+ERROR - 2023-08-18 17:03:52 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1818
+ERROR - 2023-08-18 17:03:52 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1825
+ERROR - 2023-08-18 12:04:00 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-18 12:05:46 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterWA.php 221
+ERROR - 2023-08-18 12:05:46 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterWA.php 459
+ERROR - 2023-08-18 12:06:46 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterWA.php 221
+ERROR - 2023-08-18 12:06:46 --> Severity: Notice --> Undefined variable: DtUpload C:\xampp\htdocs\bankrelation\application\views\kmk\KMKMasterWA.php 459
+ERROR - 2023-08-18 12:06:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2023-08-18 17:06:49 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1783
+ERROR - 2023-08-18 17:06:49 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1790
+ERROR - 2023-08-18 17:06:49 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1797
+ERROR - 2023-08-18 17:06:49 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1804
+ERROR - 2023-08-18 17:06:49 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1811
+ERROR - 2023-08-18 17:06:49 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1818
+ERROR - 2023-08-18 17:06:49 --> Severity: Notice --> Undefined index: SUB_CREDIT_TYPE C:\xampp\htdocs\bankrelation\application\models\KMKModel.php 1825

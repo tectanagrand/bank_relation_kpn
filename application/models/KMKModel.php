@@ -1066,7 +1066,7 @@ class KMKModel extends BaseModel {
                         $codeTranche = "A";
                     }
                     
-                    $getBank   = $this->db->get_where('BANK',['FCCODE' => $getMaster->BANK ])->row();
+                    $getBank   = $this->db->get_where('SUPPLIER',['ID' => $getMaster->BANK ])->row();
                     $BIC       = $getBank->BIC;
                     
                     $genid  = Date('y').$comp.$code.$BIC.$codeTranche.$jenisIDC.$qgenid;
